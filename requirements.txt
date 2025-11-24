@@ -1,0 +1,11 @@
+# Python dependencies for Nietzsche Corpus Analysis
+
+# Natural Language Processing
+nltk>=3.8.1
+numpy>=1.24.0
+
+# Machine Learning and Text Analysis
+scikit-learn>=1.3.0
+
+# VADER Sentiment Analysis (included in NLTK)
+# vaderSentiment>=3.3.2  # Optional: standalone package, but we use NLTK's version

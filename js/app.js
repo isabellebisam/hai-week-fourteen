@@ -1,0 +1,609 @@
+// Main application script for Nietzsche Corpus Analysis
+let analysisData = null;
+
+// Load data on page load
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        const response = await fetch('analysis/output/analysis_results.json');
+        if (!response.ok) {
+            throw new Error('Analysis data not found. Please run the analysis script first.');
+        }
+        analysisData = await response.json();
+
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+
+        initializeApp();
+    } catch (error) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error-container').innerHTML = `
+            <div class="error">
+                <h5>Error Loading Data</h5>
+                <p>${error.message}</p>
+                <p>Please run the analysis script first:</p>
+                <code>python3 analysis/scripts/analyze_corpus.py</code>
+            </div>
+        `;
+    }
+});
+
+// Initialize application
+function initializeApp() {
+    renderOverviewMetrics();
+    renderSentimentCharts();
+    renderStyleCharts();
+    setupWordCloud();
+    renderComparisonCharts();
+    setupEventListeners();
+}
+
+// Render overview metrics
+function renderOverviewMetrics() {
+    const container = document.getElementById('overview-metrics');
+    const texts = analysisData.texts;
+    const textNames = Object.keys(texts);
+
+    const totalWords = textNames.reduce((sum, name) =>
+        sum + texts[name].basic_info.word_count, 0);
+
+    const avgSentiment = textNames.reduce((sum, name) =>
+        sum + texts[name].sentiment.full_text.compound, 0) / textNames.length;
+
+    const metrics = [
+        { label: 'Total Texts', value: textNames.length },
+        { label: 'Total Words', value: totalWords.toLocaleString() },
+        { label: 'Avg Sentiment', value: avgSentiment.toFixed(3) },
+        { label: 'Analysis Date', value: new Date(analysisData.metadata.analysis_date).toLocaleDateString() }
+    ];
+
+    container.innerHTML = metrics.map(m => `
+        <div class="col-md-3">
+            <div class="card metric-card">
+                <div class="metric-value">${m.value}</div>
+                <div class="metric-label">${m.label}</div>
+            </div>
+        </div>
+    `).join('');
+}
+
+// Render sentiment charts
+function renderSentimentCharts() {
+    const texts = analysisData.texts;
+    const textNames = Object.keys(texts);
+
+    // Overall sentiment bar chart
+    const sentimentData = textNames.map(name => ({
+        text: name,
+        compound: texts[name].sentiment.full_text.compound,
+        classification: texts[name].sentiment.full_text.classification
+    }));
+
+    createBarChart('#sentiment-chart', sentimentData, 'text', 'compound',
+        'Compound Sentiment Score', -1, 1);
+
+    // Setup trajectory selector
+    const trajectorySelector = document.getElementById('trajectory-selector');
+    trajectorySelector.innerHTML = textNames.map(name =>
+        `<option value="${name}">${name}</option>`
+    ).join('');
+
+    // Initial trajectory chart
+    updateTrajectoryChart(textNames[0]);
+}
+
+// Update sentiment trajectory chart
+function updateTrajectoryChart(textName) {
+    const sentiment = analysisData.texts[textName].sentiment;
+
+    if (sentiment.chapters.length <= 1) {
+        document.getElementById('trajectory-chart').innerHTML =
+            '<p class="text-muted text-center mt-5">No chapter-level data available for this text.</p>';
+        return;
+    }
+
+    const trajectoryData = sentiment.chapters.map((ch, i) => ({
+        chapter: i + 1,
+        chapterName: ch.chapter,
+        compound: ch.compound
+    }));
+
+    createLineChart('#trajectory-chart', trajectoryData, 'chapter', 'compound',
+        'Chapter Progression');
+}
+
+// Render style metric charts
+function renderStyleCharts() {
+    const texts = analysisData.texts;
+    const textNames = Object.keys(texts);
+
+    // Readability comparison
+    const readabilityData = textNames.map(name => ({
+        text: name,
+        fleschReadingEase: texts[name].style.readability.flesch_reading_ease,
+        fleschKincaid: texts[name].style.readability.flesch_kincaid_grade
+    }));
+
+    createGroupedBarChart('#readability-chart', readabilityData, 'text',
+        ['fleschReadingEase', 'fleschKincaid'],
+        ['Flesch Reading Ease', 'Flesch-Kincaid Grade']);
+
+    // Lexical diversity
+    const lexicalData = textNames.map(name => ({
+        text: name,
+        ttr: texts[name].style.lexical_diversity.type_token_ratio
+    }));
+
+    createBarChart('#lexical-chart', lexicalData, 'text', 'ttr',
+        'Type-Token Ratio', 0, Math.max(...lexicalData.map(d => d.ttr)) * 1.1);
+
+    // Style comparison table
+    renderStyleTable(textNames);
+}
+
+// Render style comparison table
+function renderStyleTable(textNames) {
+    const texts = analysisData.texts;
+    const table = document.getElementById('style-table');
+
+    const metrics = [
+        { name: 'Type-Token Ratio', getValue: (t) => t.style.lexical_diversity.type_token_ratio.toFixed(3) },
+        { name: 'Avg Sentence Length', getValue: (t) => t.style.sentence_metrics.avg_sentence_length.toFixed(1) },
+        { name: 'Avg Word Length', getValue: (t) => t.style.word_metrics.avg_word_length.toFixed(2) },
+        { name: 'Flesch Reading Ease', getValue: (t) => t.style.readability.flesch_reading_ease.toFixed(1) },
+        { name: 'Flesch-Kincaid Grade', getValue: (t) => t.style.readability.flesch_kincaid_grade.toFixed(1) },
+        { name: 'Complex Words %', getValue: (t) => t.style.readability.complex_word_percentage.toFixed(1) }
+    ];
+
+    let html = '<thead><tr><th>Metric</th>';
+    textNames.forEach(name => {
+        html += `<th>${name}</th>`;
+    });
+    html += '</tr></thead><tbody>';
+
+    metrics.forEach(metric => {
+        html += `<tr><td><strong>${metric.name}</strong></td>`;
+        textNames.forEach(name => {
+            html += `<td>${metric.getValue(texts[name])}</td>`;
+        });
+        html += '</tr>';
+    });
+
+    html += '</tbody>';
+    table.innerHTML = html;
+}
+
+// Setup word cloud
+function setupWordCloud() {
+    const texts = analysisData.texts;
+    const textNames = Object.keys(texts);
+
+    const selector = document.getElementById('wordcloud-selector');
+    selector.innerHTML = textNames.map(name =>
+        `<option value="${name}">${name}</option>`
+    ).join('');
+
+    updateWordCloud(textNames[0]);
+}
+
+// Update word cloud visualization
+function updateWordCloud(textName) {
+    const frequencies = analysisData.texts[textName].word_frequencies;
+    const words = frequencies.words.slice(0, 100);
+    const counts = frequencies.frequencies.slice(0, 100);
+
+    const data = words.map((word, i) => ({
+        text: word,
+        size: counts[i]
+    }));
+
+    createWordCloud('#wordcloud-viz', data);
+}
+
+// Render comparison charts
+function renderComparisonCharts() {
+    const texts = analysisData.texts;
+    const textNames = Object.keys(texts);
+
+    // Setup frequency comparison selectors
+    const freq1 = document.getElementById('freq-text1');
+    const freq2 = document.getElementById('freq-text2');
+
+    freq1.innerHTML = textNames.map(name =>
+        `<option value="${name}">${name}</option>`
+    ).join('');
+    freq2.innerHTML = textNames.map((name, i) =>
+        `<option value="${name}" ${i === 1 ? 'selected' : ''}>${name}</option>`
+    ).join('');
+
+    // Vocabulary overlap heatmap
+    if (analysisData.corpus_wide && analysisData.corpus_wide.vocabulary_overlap) {
+        createHeatmap('#overlap-chart',
+            analysisData.corpus_wide.vocabulary_overlap.overlap_matrix,
+            textNames);
+    }
+
+    // Initial frequency comparison
+    updateFrequencyComparison(textNames[0], textNames[1] || textNames[0]);
+}
+
+// Update frequency comparison
+function updateFrequencyComparison(text1, text2) {
+    const freq1 = analysisData.texts[text1].word_frequencies;
+    const freq2 = analysisData.texts[text2].word_frequencies;
+
+    // Find common words
+    const words1Set = new Set(freq1.words.slice(0, 50));
+    const words2Set = new Set(freq2.words.slice(0, 50));
+
+    const commonWords = [...words1Set].filter(w => words2Set.has(w)).slice(0, 20);
+
+    const comparisonData = commonWords.map(word => {
+        const idx1 = freq1.words.indexOf(word);
+        const idx2 = freq2.words.indexOf(word);
+        return {
+            word,
+            [text1]: freq1.frequencies[idx1] || 0,
+            [text2]: freq2.frequencies[idx2] || 0
+        };
+    });
+
+    createGroupedBarChart('#frequency-chart', comparisonData, 'word',
+        [text1, text2], [text1, text2]);
+}
+
+// Create bar chart using D3
+function createBarChart(selector, data, xKey, yKey, yLabel, yMin = null, yMax = null) {
+    const container = document.querySelector(selector);
+    container.innerHTML = '';
+
+    const margin = { top: 20, right: 30, bottom: 100, left: 60 };
+    const width = container.clientWidth - margin.left - margin.right;
+    const height = 350 - margin.top - margin.bottom;
+
+    const svg = d3.select(selector)
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x = d3.scaleBand()
+        .domain(data.map(d => d[xKey]))
+        .range([0, width])
+        .padding(0.2);
+
+    const y = d3.scaleLinear()
+        .domain([yMin !== null ? yMin : 0, yMax !== null ? yMax : d3.max(data, d => d[yKey])])
+        .nice()
+        .range([height, 0]);
+
+    // Add zero line if yMin < 0
+    if (yMin !== null && yMin < 0) {
+        svg.append('line')
+            .attr('x1', 0)
+            .attr('x2', width)
+            .attr('y1', y(0))
+            .attr('y2', y(0))
+            .attr('stroke', '#666')
+            .attr('stroke-width', 1);
+    }
+
+    svg.selectAll('.bar')
+        .data(data)
+        .enter()
+        .append('rect')
+        .attr('class', 'bar')
+        .attr('x', d => x(d[xKey]))
+        .attr('y', d => d[yKey] >= 0 ? y(d[yKey]) : y(0))
+        .attr('width', x.bandwidth())
+        .attr('height', d => Math.abs(y(d[yKey]) - y(0)))
+        .attr('fill', d => d[yKey] >= 0 ? '#667eea' : '#dc3545')
+        .attr('opacity', 0.8)
+        .on('mouseover', function(event, d) {
+            d3.select(this).attr('opacity', 1);
+        })
+        .on('mouseout', function(event, d) {
+            d3.select(this).attr('opacity', 0.8);
+        });
+
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x))
+        .selectAll('text')
+        .attr('transform', 'rotate(-45)')
+        .style('text-anchor', 'end');
+
+    svg.append('g')
+        .call(d3.axisLeft(y));
+
+    svg.append('text')
+        .attr('transform', 'rotate(-90)')
+        .attr('y', 0 - margin.left)
+        .attr('x', 0 - (height / 2))
+        .attr('dy', '1em')
+        .style('text-anchor', 'middle')
+        .style('font-size', '12px')
+        .text(yLabel);
+}
+
+// Create line chart using D3
+function createLineChart(selector, data, xKey, yKey, title) {
+    const container = document.querySelector(selector);
+    container.innerHTML = '';
+
+    const margin = { top: 20, right: 30, bottom: 60, left: 60 };
+    const width = container.clientWidth - margin.left - margin.right;
+    const height = 350 - margin.top - margin.bottom;
+
+    const svg = d3.select(selector)
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x = d3.scaleLinear()
+        .domain(d3.extent(data, d => d[xKey]))
+        .range([0, width]);
+
+    const y = d3.scaleLinear()
+        .domain([d3.min(data, d => d[yKey]) - 0.1, d3.max(data, d => d[yKey]) + 0.1])
+        .nice()
+        .range([height, 0]);
+
+    const line = d3.line()
+        .x(d => x(d[xKey]))
+        .y(d => y(d[yKey]))
+        .curve(d3.curveMonotoneX);
+
+    svg.append('path')
+        .datum(data)
+        .attr('fill', 'none')
+        .attr('stroke', '#667eea')
+        .attr('stroke-width', 2)
+        .attr('d', line);
+
+    svg.selectAll('.dot')
+        .data(data)
+        .enter()
+        .append('circle')
+        .attr('class', 'dot')
+        .attr('cx', d => x(d[xKey]))
+        .attr('cy', d => y(d[yKey]))
+        .attr('r', 4)
+        .attr('fill', '#667eea');
+
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x).ticks(data.length));
+
+    svg.append('g')
+        .call(d3.axisLeft(y));
+
+    svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', height + margin.bottom - 10)
+        .style('text-anchor', 'middle')
+        .style('font-size', '12px')
+        .text('Chapter Number');
+}
+
+// Create grouped bar chart
+function createGroupedBarChart(selector, data, xKey, yKeys, labels) {
+    const container = document.querySelector(selector);
+    container.innerHTML = '';
+
+    const margin = { top: 20, right: 120, bottom: 100, left: 60 };
+    const width = container.clientWidth - margin.left - margin.right;
+    const height = 350 - margin.top - margin.bottom;
+
+    const svg = d3.select(selector)
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const x0 = d3.scaleBand()
+        .domain(data.map(d => d[xKey]))
+        .range([0, width])
+        .padding(0.2);
+
+    const x1 = d3.scaleBand()
+        .domain(yKeys)
+        .range([0, x0.bandwidth()])
+        .padding(0.05);
+
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(data, d => Math.max(...yKeys.map(k => d[k] || 0)))])
+        .nice()
+        .range([height, 0]);
+
+    const color = d3.scaleOrdinal()
+        .domain(yKeys)
+        .range(['#667eea', '#764ba2', '#f093fb']);
+
+    const groups = svg.selectAll('.group')
+        .data(data)
+        .enter()
+        .append('g')
+        .attr('transform', d => `translate(${x0(d[xKey])},0)`);
+
+    groups.selectAll('rect')
+        .data(d => yKeys.map(key => ({ key, value: d[key] || 0 })))
+        .enter()
+        .append('rect')
+        .attr('x', d => x1(d.key))
+        .attr('y', d => y(d.value))
+        .attr('width', x1.bandwidth())
+        .attr('height', d => height - y(d.value))
+        .attr('fill', d => color(d.key))
+        .attr('opacity', 0.8);
+
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x0))
+        .selectAll('text')
+        .attr('transform', 'rotate(-45)')
+        .style('text-anchor', 'end');
+
+    svg.append('g')
+        .call(d3.axisLeft(y));
+
+    // Legend
+    const legend = svg.selectAll('.legend')
+        .data(labels)
+        .enter()
+        .append('g')
+        .attr('transform', (d, i) => `translate(${width + 10},${i * 20})`);
+
+    legend.append('rect')
+        .attr('width', 15)
+        .attr('height', 15)
+        .attr('fill', (d, i) => color(yKeys[i]));
+
+    legend.append('text')
+        .attr('x', 20)
+        .attr('y', 12)
+        .style('font-size', '11px')
+        .text(d => d);
+}
+
+// Create word cloud using D3
+function createWordCloud(selector, data) {
+    const container = document.querySelector(selector);
+    container.innerHTML = '';
+
+    const width = container.clientWidth;
+    const height = 500;
+
+    const maxSize = d3.max(data, d => d.size);
+    const minSize = d3.min(data, d => d.size);
+
+    const fontScale = d3.scaleLinear()
+        .domain([minSize, maxSize])
+        .range([12, 80]);
+
+    const layout = d3.layout.cloud()
+        .size([width, height])
+        .words(data.map(d => ({
+            text: d.text,
+            size: fontScale(d.size)
+        })))
+        .padding(5)
+        .rotate(() => (Math.random() > 0.5 ? 0 : 90))
+        .fontSize(d => d.size)
+        .on('end', draw);
+
+    layout.start();
+
+    function draw(words) {
+        const svg = d3.select(selector)
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height)
+            .append('g')
+            .attr('transform', `translate(${width/2},${height/2})`);
+
+        svg.selectAll('text')
+            .data(words)
+            .enter()
+            .append('text')
+            .style('font-size', d => d.size + 'px')
+            .style('font-family', 'Arial, sans-serif')
+            .style('fill', () => d3.schemeCategory10[Math.floor(Math.random() * 10)])
+            .attr('text-anchor', 'middle')
+            .attr('transform', d => `translate(${d.x},${d.y}) rotate(${d.rotate})`)
+            .text(d => d.text);
+    }
+}
+
+// Create heatmap
+function createHeatmap(selector, matrix, labels) {
+    const container = document.querySelector(selector);
+    container.innerHTML = '';
+
+    const margin = { top: 100, right: 30, bottom: 30, left: 100 };
+    const cellSize = 40;
+    const width = labels.length * cellSize;
+    const height = labels.length * cellSize;
+
+    const svg = d3.select(selector)
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const colorScale = d3.scaleSequential(d3.interpolateBlues)
+        .domain([0, 100]);
+
+    labels.forEach((label1, i) => {
+        labels.forEach((label2, j) => {
+            const value = matrix[label1][label2];
+
+            svg.append('rect')
+                .attr('x', j * cellSize)
+                .attr('y', i * cellSize)
+                .attr('width', cellSize)
+                .attr('height', cellSize)
+                .attr('fill', colorScale(value))
+                .attr('stroke', 'white')
+                .attr('stroke-width', 1);
+
+            svg.append('text')
+                .attr('x', j * cellSize + cellSize / 2)
+                .attr('y', i * cellSize + cellSize / 2)
+                .attr('dy', '.35em')
+                .attr('text-anchor', 'middle')
+                .style('font-size', '10px')
+                .style('fill', value > 50 ? 'white' : 'black')
+                .text(value.toFixed(0) + '%');
+        });
+    });
+
+    // Row labels
+    svg.selectAll('.row-label')
+        .data(labels)
+        .enter()
+        .append('text')
+        .attr('x', -5)
+        .attr('y', (d, i) => i * cellSize + cellSize / 2)
+        .attr('dy', '.35em')
+        .attr('text-anchor', 'end')
+        .style('font-size', '11px')
+        .text(d => d);
+
+    // Column labels
+    svg.selectAll('.col-label')
+        .data(labels)
+        .enter()
+        .append('text')
+        .attr('x', (d, i) => i * cellSize + cellSize / 2)
+        .attr('y', -5)
+        .attr('text-anchor', 'end')
+        .attr('transform', (d, i) => `rotate(-45, ${i * cellSize + cellSize / 2}, -5)`)
+        .style('font-size', '11px')
+        .text(d => d);
+}
+
+// Setup event listeners
+function setupEventListeners() {
+    document.getElementById('trajectory-selector').addEventListener('change', (e) => {
+        updateTrajectoryChart(e.target.value);
+    });
+
+    document.getElementById('wordcloud-selector').addEventListener('change', (e) => {
+        updateWordCloud(e.target.value);
+    });
+
+    document.getElementById('freq-text1').addEventListener('change', (e) => {
+        const text2 = document.getElementById('freq-text2').value;
+        updateFrequencyComparison(e.target.value, text2);
+    });
+
+    document.getElementById('freq-text2').addEventListener('change', (e) => {
+        const text1 = document.getElementById('freq-text1').value;
+        updateFrequencyComparison(text1, e.target.value);
+    });
+}

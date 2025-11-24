@@ -74,3 +74,142 @@ When processing these texts:
 - Main content starts after "*** START OF THE PROJECT GUTENBERG EBOOK [TITLE] ***"
 - Main content ends before "*** END OF THE PROJECT GUTENBERG EBOOK [TITLE] ***"
 - Some works contain translator's notes, prefaces, or commentary in addition to Nietzsche's text
+
+## Analysis System
+
+This repository includes a comprehensive text analysis system with sentiment analysis, style metrics, and interactive visualizations.
+
+### Setup and Installation
+
+Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Download required NLTK data (automatic on first run):
+```bash
+python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('punkt'); nltk.download('stopwords')"
+```
+
+### Running the Analysis
+
+**Complete analysis pipeline:**
+```bash
+python3 analysis/scripts/analyze_corpus.py
+```
+
+This runs all analyses and generates `analysis/output/analysis_results.json` with complete results.
+
+**Individual analysis scripts:**
+```bash
+# Preprocessing only (strip Gutenberg headers/footers)
+python3 analysis/scripts/preprocess.py
+
+# Sentiment analysis only (VADER-based)
+python3 analysis/scripts/sentiment_analysis.py
+
+# Style metrics only (readability, lexical diversity, etc.)
+python3 analysis/scripts/style_metrics.py
+```
+
+### Viewing Visualizations
+
+Start a local web server:
+```bash
+python3 -m http.server 8000
+```
+
+Then open browser to `http://localhost:8000`
+
+### Project Structure
+
+```
+analysis/
+├── scripts/              # Analysis Python scripts
+│   ├── preprocess.py           # Text preprocessing
+│   ├── sentiment_analysis.py   # VADER sentiment analysis
+│   ├── style_metrics.py        # Style and readability metrics
+│   └── analyze_corpus.py       # Main analysis pipeline
+├── data/                 # Cleaned text files (generated)
+└── output/               # JSON analysis results (generated)
+    ├── analysis_results.json    # Complete results
+    └── analysis_summary.json    # High-level summary
+
+js/
+└── app.js               # Web visualization code (D3.js)
+
+index.html               # Main web interface
+```
+
+### Analysis Features
+
+**Sentiment Analysis (VADER):**
+- Full-text and chapter-level analysis
+- Compound, positive, neutral, negative scores
+- Sentiment classification and trajectory tracking
+
+**Style Metrics:**
+- Lexical diversity (type-token ratio, hapax legomena)
+- Sentence and word length statistics
+- Readability scores (Flesch Reading Ease, Flesch-Kincaid Grade, Gunning Fog)
+- Vocabulary complexity (complex words, long words)
+- Distinctive word identification (TF-IDF)
+
+**Visualizations:**
+- Sentiment comparison charts and trajectories
+- Style metrics comparison tables
+- Dynamic word clouds (D3.js)
+- Vocabulary overlap heatmaps
+- Word frequency comparisons
+
+### Output Files
+
+- `analysis/output/analysis_results.json` - Complete analysis data for all texts
+- `analysis/output/analysis_summary.json` - Quick reference summary
+- `analysis/data/*_clean.txt` - Preprocessed texts with metadata removed
+
+### Technical Stack
+
+**Python:**
+- NLTK (tokenization, VADER sentiment analysis)
+- scikit-learn (TF-IDF for distinctive words)
+- NumPy (numerical computations)
+
+**Frontend:**
+- Bootstrap 5 (UI framework)
+- D3.js v7 (data visualizations)
+- D3-cloud (word cloud generation)
+- Vanilla JavaScript (no framework dependencies)
+
+### Development Workflow
+
+1. **Modify analysis scripts** in `analysis/scripts/`
+2. **Run analysis** with `python3 analysis/scripts/analyze_corpus.py`
+3. **Check output** in `analysis/output/analysis_results.json`
+4. **View results** by opening `index.html` in browser
+5. **Update visualizations** by editing `js/app.js`
+
+### Common Analysis Tasks
+
+**Add new style metric:**
+1. Add calculation function to `analysis/scripts/style_metrics.py`
+2. Include in `analyze_style_metrics()` function
+3. Update JSON output structure
+4. Add visualization in `js/app.js`
+
+**Add new visualization:**
+1. Add tab/section to `index.html`
+2. Create chart function in `js/app.js`
+3. Call from `initializeApp()` or appropriate event handler
+
+**Modify preprocessing:**
+1. Edit detection logic in `analysis/scripts/preprocess.py`
+2. Adjust `strip_gutenberg_metadata()` or `detect_chapters()`
+3. Rerun full analysis pipeline
+
+### Dependencies
+
+See `requirements.txt` for Python dependencies:
+- `nltk>=3.8.1` - Natural language processing
+- `numpy>=1.24.0` - Numerical computing
+- `scikit-learn>=1.3.0` - Machine learning (TF-IDF)
