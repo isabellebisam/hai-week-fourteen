@@ -1,0 +1,82 @@
+{
+  "texts": [
+    "Beyond Good and Evil",
+    "Ecce Homo",
+    "Human All Too Human",
+    "The Antichrist",
+    "The Birth of Tragedy",
+    "The Genealogy of Morals",
+    "The Twilight of the Idols",
+    "Thus Spake Zarathustra"
+  ],
+  "total_words": 470773,
+  "analysis_date": "2025-11-24T11:46:46.969880",
+  "overall_sentiment": {
+    "Beyond Good and Evil": {
+      "compound": 0.11931381909547739,
+      "classification": "positive"
+    },
+    "Ecce Homo": {
+      "compound": 0.08396489524782831,
+      "classification": "positive"
+    },
+    "Human All Too Human": {
+      "compound": 0.11876523206751056,
+      "classification": "positive"
+    },
+    "The Antichrist": {
+      "compound": 0.06052723367697594,
+      "classification": "positive"
+    },
+    "The Birth of Tragedy": {
+      "compound": 0.13658585714285715,
+      "classification": "positive"
+    },
+    "The Genealogy of Morals": {
+      "compound": 0.07153331249999999,
+      "classification": "positive"
+    },
+    "The Twilight of the Idols": {
+      "compound": 0.08945896246309573,
+      "classification": "positive"
+    },
+    "Thus Spake Zarathustra": {
+      "compound": 0.07025341718442188,
+      "classification": "positive"
+    }
+  },
+  "readability_comparison": {
+    "Beyond Good and Evil": {
+      "flesch_reading_ease": 40.82133330967156,
+      "flesch_kincaid_grade": 15.40877627037251
+    },
+    "Ecce Homo": {
+      "flesch_reading_ease": 59.600869419798414,
+      "flesch_kincaid_grade": 10.810979715396169
+    },
+    "Human All Too Human": {
+      "flesch_reading_ease": 41.0501967196723,
+      "flesch_kincaid_grade": 15.177051772738654
+    },
+    "The Antichrist": {
+      "flesch_reading_ease": 49.118227565244695,
+      "flesch_kincaid_grade": 13.39183355009882
+    },
+    "The Birth of Tragedy": {
+      "flesch_reading_ease": 32.49684338376426,
+      "flesch_kincaid_grade": 18.156637633402692
+    },
+    "The Genealogy of Morals": {
+      "flesch_reading_ease": 41.13157246677741,
+      "flesch_kincaid_grade": 15.934688030638615
+    },
+    "The Twilight of the Idols": {
+      "flesch_reading_ease": 47.97534547038171,
+      "flesch_kincaid_grade": 13.68244887494357
+    },
+    "Thus Spake Zarathustra": {
+      "flesch_reading_ease": 71.62172295517715,
+      "flesch_kincaid_grade": 7.3475699244166535
+    }
+  }
+}

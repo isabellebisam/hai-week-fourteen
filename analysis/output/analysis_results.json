@@ -1,0 +1,6497 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-24T11:46:46.941369",
+    "num_texts": 8,
+    "texts": [
+      "Beyond Good and Evil",
+      "Ecce Homo",
+      "Human All Too Human",
+      "The Antichrist",
+      "The Birth of Tragedy",
+      "The Genealogy of Morals",
+      "The Twilight of the Idols",
+      "Thus Spake Zarathustra"
+    ]
+  },
+  "texts": {
+    "Beyond Good and Evil": {
+      "basic_info": {
+        "word_count": 62678,
+        "char_count": 382937,
+        "num_chapters": 14
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.11931381909547739,
+          "positive": 0.09885125628140704,
+          "neutral": 0.8297909547738694,
+          "negative": 0.07135477386934673,
+          "sentence_count": 1990,
+          "compound_std": 0.4759620828242724,
+          "sentiment_range": [
+            -0.9833,
+            0.9893
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.6124,
+            "positive": 0.625,
+            "neutral": 0.375,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.6124,
+              0.6124
+            ],
+            "chapter": "Chapter I: :    PREJUDICES OF PHILOSOPHERS",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter III: :  THE RELIGIOUS MOOD",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter V: :    THE NATURAL HISTORY OF MORALS",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter VII: :  OUR VIRTUES",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.14189473684210527,
+            "positive": 0.115,
+            "neutral": 0.791578947368421,
+            "negative": 0.09347368421052632,
+            "sentence_count": 19,
+            "compound_std": 0.5126278279339692,
+            "sentiment_range": [
+              -0.8338,
+              0.935
+            ],
+            "chapter": "Chapter IX: :   WHAT IS NOBLE?",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.12783940677966102,
+            "positive": 0.08657627118644069,
+            "neutral": 0.8583813559322034,
+            "negative": 0.055029661016949144,
+            "sentence_count": 236,
+            "compound_std": 0.45140494195907055,
+            "sentiment_range": [
+              -0.8931,
+              0.9598
+            ],
+            "chapter": "Chapter I: PREJUDICES OF PHILOSOPHERS",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.08704731707317073,
+            "positive": 0.1051609756097561,
+            "neutral": 0.8177024390243903,
+            "negative": 0.07714634146341463,
+            "sentence_count": 205,
+            "compound_std": 0.493354372271234,
+            "sentiment_range": [
+              -0.9833,
+              0.9711
+            ],
+            "chapter": "Chapter II: THE FREE SPIRIT",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.08672517482517482,
+            "positive": 0.0927972027972028,
+            "neutral": 0.8302867132867132,
+            "negative": 0.07694405594405594,
+            "sentence_count": 143,
+            "compound_std": 0.526927832065634,
+            "sentiment_range": [
+              -0.9354,
+              0.9776
+            ],
+            "chapter": "Chapter III: THE RELIGIOUS MOOD",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.09099420289855073,
+            "positive": 0.09273913043478262,
+            "neutral": 0.8453442028985507,
+            "negative": 0.061898550724637666,
+            "sentence_count": 276,
+            "compound_std": 0.3466155194155723,
+            "sentiment_range": [
+              -0.7906,
+              0.9423
+            ],
+            "chapter": "Chapter IV: APOPHTHEGMS AND INTERLUDES",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.11434240506329113,
+            "positive": 0.08562025316455696,
+            "neutral": 0.8305,
+            "negative": 0.08389240506329114,
+            "sentence_count": 158,
+            "compound_std": 0.5429965884796558,
+            "sentiment_range": [
+              -0.9517,
+              0.9694
+            ],
+            "chapter": "Chapter V: THE NATURAL HISTORY OF MORALS",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.10881214285714284,
+            "positive": 0.09337142857142856,
+            "neutral": 0.8251071428571427,
+            "negative": 0.08147857142857143,
+            "sentence_count": 140,
+            "compound_std": 0.5015949127487321,
+            "sentiment_range": [
+              -0.9428,
+              0.9825
+            ],
+            "chapter": "Chapter VI: WE SCHOLARS",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1387337606837607,
+            "positive": 0.11281623931623933,
+            "neutral": 0.8099230769230769,
+            "negative": 0.07724786324786324,
+            "sentence_count": 234,
+            "compound_std": 0.5092667956576018,
+            "sentiment_range": [
+              -0.9682,
+              0.984
+            ],
+            "chapter": "Chapter VII: OUR VIRTUES",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.18917989130434784,
+            "positive": 0.10266304347826087,
+            "neutral": 0.8304456521739132,
+            "negative": 0.06688586956521739,
+            "sentence_count": 184,
+            "compound_std": 0.49740861491681715,
+            "sentiment_range": [
+              -0.976,
+              0.9832
+            ],
+            "chapter": "Chapter VIII: PEOPLES AND COUNTRIES",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.11857619047619046,
+            "positive": 0.10230158730158731,
+            "neutral": 0.8247936507936507,
+            "negative": 0.07291534391534392,
+            "sentence_count": 378,
+            "compound_std": 0.4697395147400726,
+            "sentiment_range": [
+              -0.9349,
+              0.9893
+            ],
+            "chapter": "Chapter IX: WHAT IS NOBLE?",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.6124,
+          0.0,
+          0.0,
+          0.0,
+          0.14189473684210527,
+          0.12783940677966102,
+          0.08704731707317073,
+          0.08672517482517482,
+          0.09099420289855073,
+          0.11434240506329113,
+          0.10881214285714284,
+          0.1387337606837607,
+          0.18917989130434784,
+          0.11857619047619046
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.11921626052493355,
+          "unique_words": 7490,
+          "total_words": 62827,
+          "hapax_legomena": 3829,
+          "avg_word_frequency": 8.38811748998665
+        },
+        "sentence_metrics": {
+          "sentence_count": 1990,
+          "avg_sentence_length": 38.17185929648241,
+          "sentence_length_std": 41.311387847538484,
+          "min_sentence_length": 2,
+          "max_sentence_length": 514
+        },
+        "word_metrics": {
+          "avg_word_length": 4.716618651216834,
+          "word_length_std": 2.704605580107512,
+          "min_word_length": 1,
+          "max_word_length": 20
+        },
+        "readability": {
+          "flesch_reading_ease": 40.82133330967156,
+          "flesch_kincaid_grade": 15.40877627037251,
+          "gunning_fog": 19.25308311817096,
+          "avg_syllables_per_word": 1.583554841071514,
+          "complex_word_percentage": 16.561351011507792
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 23.782768554920654,
+          "avg_word_length": 4.716618651216834,
+          "words_over_10_chars": 4414,
+          "words_over_15_chars": 111
+        },
+        "distinctive_words": [
+          [
+            "man",
+            0.3250594434774991
+          ],
+          [
+            "good",
+            0.18593935244186163
+          ],
+          [
+            "men",
+            0.1698870342454419
+          ],
+          [
+            "like",
+            0.14447086376777737
+          ],
+          [
+            "new",
+            0.13109393193742763
+          ],
+          [
+            "german",
+            0.12841854557135768
+          ],
+          [
+            "does",
+            0.12841854557135768
+          ],
+          [
+            "self",
+            0.12440546602225275
+          ],
+          [
+            "life",
+            0.12039238647314782
+          ],
+          [
+            "morality",
+            0.12039238647314782
+          ],
+          [
+            "soul",
+            0.11905469329011284
+          ],
+          [
+            "time",
+            0.11771700010707786
+          ],
+          [
+            "woman",
+            0.11637930692404289
+          ],
+          [
+            "say",
+            0.11370392055797295
+          ],
+          [
+            "great",
+            0.11236622737493797
+          ],
+          [
+            "love",
+            0.11102853419190299
+          ],
+          [
+            "world",
+            0.10969084100886801
+          ],
+          [
+            "spirit",
+            0.10701545464279806
+          ],
+          [
+            "old",
+            0.1043400682767281
+          ],
+          [
+            "just",
+            0.10166468191065815
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "even",
+          "also",
+          "perhaps",
+          "every",
+          "good",
+          "would",
+          "must",
+          "still",
+          "something",
+          "always",
+          "like",
+          "german",
+          "woman",
+          "time",
+          "soul",
+          "great",
+          "life",
+          "love",
+          "much",
+          "morality",
+          "spirit",
+          "among",
+          "taste",
+          "world",
+          "things",
+          "people",
+          "however",
+          "could",
+          "philosophy",
+          "hitherto",
+          "europe",
+          "fact",
+          "means",
+          "long",
+          "almost",
+          "philosophers",
+          "power",
+          "without",
+          "know",
+          "truth",
+          "philosopher",
+          "moral",
+          "everything",
+          "upon",
+          "nature",
+          "many",
+          "conscience",
+          "noble",
+          "kind",
+          "order",
+          "sense",
+          "make",
+          "thereby",
+          "nothing",
+          "present",
+          "precisely",
+          "free",
+          "enough",
+          "sympathy",
+          "last",
+          "first",
+          "dangerous",
+          "higher",
+          "well",
+          "another",
+          "heart",
+          "right",
+          "instance",
+          "whole",
+          "instinct",
+          "nowadays",
+          "knowledge",
+          "best",
+          "longer",
+          "seems",
+          "might",
+          "whether",
+          "certain",
+          "made",
+          "modern",
+          "general",
+          "hand",
+          "really",
+          "question",
+          "finally",
+          "morals",
+          "necessary",
+          "according",
+          "find",
+          "different",
+          "belief",
+          "ideas",
+          "regard",
+          "music",
+          "understand",
+          "possible",
+          "little",
+          "often",
+          "short",
+          "makes"
+        ],
+        "frequencies": [
+          192,
+          164,
+          158,
+          143,
+          129,
+          123,
+          122,
+          121,
+          113,
+          98,
+          97,
+          91,
+          87,
+          87,
+          84,
+          83,
+          83,
+          83,
+          83,
+          80,
+          79,
+          76,
+          74,
+          73,
+          71,
+          71,
+          71,
+          68,
+          67,
+          66,
+          66,
+          66,
+          64,
+          64,
+          64,
+          63,
+          63,
+          61,
+          61,
+          60,
+          60,
+          59,
+          59,
+          58,
+          58,
+          57,
+          57,
+          56,
+          54,
+          54,
+          54,
+          54,
+          53,
+          53,
+          52,
+          52,
+          51,
+          51,
+          51,
+          50,
+          49,
+          49,
+          49,
+          49,
+          48,
+          47,
+          47,
+          45,
+          44,
+          44,
+          44,
+          43,
+          43,
+          42,
+          41,
+          41,
+          41,
+          41,
+          40,
+          40,
+          40,
+          39,
+          39,
+          39,
+          39,
+          38,
+          38,
+          38,
+          37,
+          37,
+          37,
+          37,
+          37,
+          37,
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ]
+      }
+    },
+    "Ecce Homo": {
+      "basic_info": {
+        "word_count": 46898,
+        "char_count": 277466,
+        "num_chapters": 1
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.08396489524782831,
+          "positive": 0.10831476750127747,
+          "neutral": 0.8094767501277466,
+          "negative": 0.08220541645375574,
+          "sentence_count": 1957,
+          "compound_std": 0.46579026451314887,
+          "sentiment_range": [
+            -0.9737,
+            0.9834
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.08396489524782831,
+            "positive": 0.10831476750127747,
+            "neutral": 0.8094767501277466,
+            "negative": 0.08220541645375574,
+            "sentence_count": 1957,
+            "compound_std": 0.46579026451314887,
+            "sentiment_range": [
+              -0.9737,
+              0.9834
+            ],
+            "chapter": "Full Text",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.08396489524782831
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.135995670995671,
+          "unique_words": 6283,
+          "total_words": 46200,
+          "hapax_legomena": 3249,
+          "avg_word_frequency": 7.353175234760465
+        },
+        "sentence_metrics": {
+          "sentence_count": 1957,
+          "avg_sentence_length": 28.77976494634645,
+          "sentence_length_std": 22.97475985821405,
+          "min_sentence_length": 1,
+          "max_sentence_length": 229
+        },
+        "word_metrics": {
+          "avg_word_length": 4.407337662337662,
+          "word_length_std": 2.483832190222924,
+          "min_word_length": 1,
+          "max_word_length": 17
+        },
+        "readability": {
+          "flesch_reading_ease": 59.600869419798414,
+          "flesch_kincaid_grade": 10.810979715396169,
+          "gunning_fog": 14.068133263432191,
+          "avg_syllables_per_word": 1.457121212121212,
+          "complex_word_percentage": 11.562770562770561
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 19.244588744588746,
+          "avg_word_length": 4.407337662337662,
+          "words_over_10_chars": 2213,
+          "words_over_15_chars": 30
+        },
+        "distinctive_words": [
+          [
+            "man",
+            0.2768295312707026
+          ],
+          [
+            "life",
+            0.2661822416064448
+          ],
+          [
+            "things",
+            0.18810211740188765
+          ],
+          [
+            "footnote",
+            0.1713080857998894
+          ],
+          [
+            "thy",
+            0.14714987550384437
+          ],
+          [
+            "book",
+            0.14551295874485648
+          ],
+          [
+            "like",
+            0.14551295874485648
+          ],
+          [
+            "german",
+            0.1437384104674802
+          ],
+          [
+            "day",
+            0.1419638621901039
+          ],
+          [
+            "time",
+            0.1330911208032224
+          ],
+          [
+            "zarathustra",
+            0.12694783746588703
+          ],
+          [
+            "good",
+            0.12421837941634091
+          ],
+          [
+            "great",
+            0.1224438311389646
+          ],
+          [
+            "wagner",
+            0.1206692828615883
+          ],
+          [
+            "fact",
+            0.11889473458421201
+          ],
+          [
+            "self",
+            0.11357108975208312
+          ],
+          [
+            "men",
+            0.10292380008782533
+          ],
+          [
+            "say",
+            0.09937470353307272
+          ],
+          [
+            "nietzsche",
+            0.09937470353307272
+          ],
+          [
+            "love",
+            0.09937470353307272
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "even",
+          "life",
+          "would",
+          "first",
+          "things",
+          "must",
+          "like",
+          "book",
+          "german",
+          "every",
+          "time",
+          "ever",
+          "great",
+          "upon",
+          "fact",
+          "wagner",
+          "zarathustra",
+          "never",
+          "still",
+          "good",
+          "also",
+          "whole",
+          "could",
+          "nietzsche",
+          "soul",
+          "truth",
+          "thou",
+          "means",
+          "last",
+          "love",
+          "everything",
+          "work",
+          "order",
+          "among",
+          "word",
+          "footnote",
+          "much",
+          "light",
+          "germans",
+          "know",
+          "world",
+          "spirit",
+          "morality",
+          "people",
+          "little",
+          "nothing",
+          "thought",
+          "become",
+          "come",
+          "alone",
+          "thing",
+          "perhaps",
+          "without",
+          "nature",
+          "years",
+          "well",
+          "hand",
+          "something",
+          "values",
+          "already",
+          "regard",
+          "made",
+          "thus",
+          "part",
+          "speak",
+          "kind",
+          "instance",
+          "always",
+          "called",
+          "culture",
+          "find",
+          "heart",
+          "music",
+          "free",
+          "shall",
+          "books",
+          "wisdom",
+          "many",
+          "make",
+          "words",
+          "long",
+          "mine",
+          "instincts",
+          "hitherto",
+          "ideal",
+          "almost",
+          "greatest",
+          "highest",
+          "idea",
+          "precisely",
+          "future",
+          "eyes",
+          "thee",
+          "evil",
+          "take",
+          "general",
+          "germany",
+          "unto",
+          "away",
+          "instinct"
+        ],
+        "frequencies": [
+          145,
+          127,
+          110,
+          107,
+          106,
+          83,
+          82,
+          80,
+          78,
+          76,
+          74,
+          73,
+          69,
+          68,
+          67,
+          66,
+          64,
+          63,
+          62,
+          61,
+          57,
+          57,
+          57,
+          56,
+          56,
+          55,
+          55,
+          53,
+          51,
+          51,
+          49,
+          48,
+          48,
+          47,
+          47,
+          46,
+          45,
+          45,
+          45,
+          44,
+          43,
+          42,
+          42,
+          40,
+          39,
+          39,
+          38,
+          38,
+          37,
+          37,
+          37,
+          37,
+          36,
+          35,
+          34,
+          34,
+          33,
+          33,
+          33,
+          33,
+          32,
+          32,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          30,
+          30,
+          30,
+          29,
+          29,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ]
+      }
+    },
+    "Human All Too Human": {
+      "basic_info": {
+        "word_count": 36741,
+        "char_count": 220110,
+        "num_chapters": 1
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.11876523206751056,
+          "positive": 0.12307848101265824,
+          "neutral": 0.7872793248945147,
+          "negative": 0.0896354430379747,
+          "sentence_count": 1185,
+          "compound_std": 0.5358141382740038,
+          "sentiment_range": [
+            -0.9674,
+            0.9905
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.11876523206751056,
+            "positive": 0.12307848101265824,
+            "neutral": 0.7872793248945147,
+            "negative": 0.0896354430379747,
+            "sentence_count": 1185,
+            "compound_std": 0.5358141382740038,
+            "sentiment_range": [
+              -0.9674,
+              0.9905
+            ],
+            "chapter": "Full Text",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.11876523206751056
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.13974601607284895,
+          "unique_words": 5095,
+          "total_words": 36459,
+          "hapax_legomena": 2668,
+          "avg_word_frequency": 7.155839057899902
+        },
+        "sentence_metrics": {
+          "sentence_count": 1185,
+          "avg_sentence_length": 35.77130801687764,
+          "sentence_length_std": 25.547754977004168,
+          "min_sentence_length": 3,
+          "max_sentence_length": 203
+        },
+        "word_metrics": {
+          "avg_word_length": 4.7208919608327164,
+          "word_length_std": 2.72640342593517,
+          "min_word_length": 1,
+          "max_word_length": 17
+        },
+        "readability": {
+          "flesch_reading_ease": 41.0501967196723,
+          "flesch_kincaid_grade": 15.177051772738654,
+          "gunning_fog": 18.934554250465496,
+          "avg_syllables_per_word": 1.5904989165912395,
+          "complex_word_percentage": 16.569297018568804
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 24.39452535725061,
+          "avg_word_length": 4.7208919608327164,
+          "words_over_10_chars": 2611,
+          "words_over_15_chars": 45
+        },
+        "distinctive_words": [
+          [
+            "man",
+            0.35110480668693195
+          ],
+          [
+            "world",
+            0.19342300727663317
+          ],
+          [
+            "nature",
+            0.19132058328449586
+          ],
+          [
+            "men",
+            0.18921815929235852
+          ],
+          [
+            "things",
+            0.17660361533953464
+          ],
+          [
+            "life",
+            0.15557937541816147
+          ],
+          [
+            "good",
+            0.14716967944961218
+          ],
+          [
+            "self",
+            0.13875998348106292
+          ],
+          [
+            "does",
+            0.1345551354967883
+          ],
+          [
+            "human",
+            0.13035028751251365
+          ],
+          [
+            "feeling",
+            0.12404301553610171
+          ],
+          [
+            "conduct",
+            0.12115022609933739
+          ],
+          [
+            "thing",
+            0.11563331956755243
+          ],
+          [
+            "knowledge",
+            0.1114284715832778
+          ],
+          [
+            "great",
+            0.10932604759114048
+          ],
+          [
+            "pain",
+            0.10722362359900317
+          ],
+          [
+            "bad",
+            0.10512119960686585
+          ],
+          [
+            "individual",
+            0.10091635162259122
+          ],
+          [
+            "science",
+            0.0988139276304539
+          ],
+          [
+            "moral",
+            0.0988139276304539
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "upon",
+          "nature",
+          "world",
+          "things",
+          "would",
+          "must",
+          "even",
+          "life",
+          "every",
+          "good",
+          "without",
+          "human",
+          "thus",
+          "feeling",
+          "much",
+          "knowledge",
+          "great",
+          "self",
+          "first",
+          "pain",
+          "thing",
+          "individual",
+          "moral",
+          "always",
+          "certain",
+          "also",
+          "time",
+          "science",
+          "acts",
+          "well",
+          "therefore",
+          "mankind",
+          "others",
+          "conduct",
+          "hence",
+          "religious",
+          "pleasure",
+          "truth",
+          "made",
+          "means",
+          "free",
+          "order",
+          "power",
+          "whole",
+          "religion",
+          "soul",
+          "spirit",
+          "perhaps",
+          "still",
+          "case",
+          "could",
+          "love",
+          "become",
+          "present",
+          "feelings",
+          "everything",
+          "evil",
+          "many",
+          "something",
+          "indeed",
+          "another",
+          "ever",
+          "true",
+          "like",
+          "state",
+          "view",
+          "metaphysical",
+          "feel",
+          "thought",
+          "existence",
+          "christian",
+          "philosophy",
+          "example",
+          "reason",
+          "sense",
+          "whatever",
+          "possible",
+          "nothing",
+          "fact",
+          "called",
+          "last",
+          "justice",
+          "higher",
+          "course",
+          "longer",
+          "belief",
+          "result",
+          "point",
+          "general",
+          "form",
+          "make",
+          "origin",
+          "idea",
+          "opinion",
+          "almost",
+          "simply",
+          "long",
+          "really",
+          "away",
+          "freedom"
+        ],
+        "frequencies": [
+          128,
+          89,
+          84,
+          83,
+          83,
+          80,
+          79,
+          74,
+          72,
+          70,
+          61,
+          59,
+          57,
+          56,
+          52,
+          52,
+          51,
+          50,
+          49,
+          49,
+          49,
+          47,
+          44,
+          44,
+          44,
+          44,
+          44,
+          43,
+          43,
+          42,
+          42,
+          42,
+          42,
+          41,
+          41,
+          40,
+          40,
+          40,
+          40,
+          39,
+          38,
+          38,
+          37,
+          37,
+          37,
+          36,
+          36,
+          35,
+          34,
+          34,
+          33,
+          33,
+          33,
+          33,
+          32,
+          32,
+          32,
+          32,
+          31,
+          31,
+          31,
+          30,
+          30,
+          30,
+          29,
+          28,
+          28,
+          28,
+          28,
+          28,
+          28,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          26,
+          26,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          24,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ]
+      }
+    },
+    "The Antichrist": {
+      "basic_info": {
+        "word_count": 33664,
+        "char_count": 203107,
+        "num_chapters": 63
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.06052723367697594,
+          "positive": 0.09963659793814433,
+          "neutral": 0.8155223367697595,
+          "negative": 0.08485395189003436,
+          "sentence_count": 1164,
+          "compound_std": 0.5017856364566479,
+          "sentiment_range": [
+            -0.9636,
+            0.9885
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.19463333333333335,
+            "positive": 0.12493333333333334,
+            "neutral": 0.8130000000000001,
+            "negative": 0.06206666666666667,
+            "sentence_count": 15,
+            "compound_std": 0.4412510451986363,
+            "sentiment_range": [
+              -0.7351,
+              0.7845
+            ],
+            "chapter": "Chapter 1: --Let us look each other in the face. We are Hyperboreans--we know well",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.19718571428571427,
+            "positive": 0.17442857142857143,
+            "neutral": 0.726857142857143,
+            "negative": 0.09857142857142856,
+            "sentence_count": 7,
+            "compound_std": 0.394888365521814,
+            "sentiment_range": [
+              -0.4215,
+              0.9365
+            ],
+            "chapter": "Chapter 2: What is good?--Whatever augments the feeling of power, the will to",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1677333333333333,
+            "positive": 0.18500000000000003,
+            "neutral": 0.684,
+            "negative": 0.131,
+            "sentence_count": 3,
+            "compound_std": 0.7921281644335649,
+            "sentiment_range": [
+              -0.9191,
+              0.9463
+            ],
+            "chapter": "Chapter 3: The problem that I set here is not what shall replace mankind in the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.4808333333333333,
+            "positive": 0.20533333333333334,
+            "neutral": 0.7613333333333334,
+            "negative": 0.03333333333333333,
+            "sentence_count": 6,
+            "compound_std": 0.32427126333090667,
+            "sentiment_range": [
+              0.0,
+              0.8126
+            ],
+            "chapter": "Chapter 4: Mankind surely does _not_ represent an evolution toward a better or",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.5451666666666667,
+            "positive": 0.11866666666666666,
+            "neutral": 0.6276666666666667,
+            "negative": 0.25433333333333336,
+            "sentence_count": 3,
+            "compound_std": 0.4778009232119819,
+            "sentiment_range": [
+              -0.9325,
+              0.128
+            ],
+            "chapter": "Chapter 5: We should not deck out and embellish Christianity: it has waged a war to",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.070625,
+            "positive": 0.08787500000000001,
+            "neutral": 0.8345,
+            "negative": 0.0775,
+            "sentence_count": 8,
+            "compound_std": 0.42895944082745163,
+            "sentiment_range": [
+              -0.6486,
+              0.7832
+            ],
+            "chapter": "Chapter 6: It is a painful and tragic spectacle that rises before me: I have drawn",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.23763125000000002,
+            "positive": 0.08662500000000001,
+            "neutral": 0.7410625000000001,
+            "negative": 0.17231249999999998,
+            "sentence_count": 16,
+            "compound_std": 0.5717257665598408,
+            "sentiment_range": [
+              -0.926,
+              0.6486
+            ],
+            "chapter": "Chapter 7: Christianity is called the religion of _pity_.--Pity stands in",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.06775714285714289,
+            "positive": 0.13642857142857143,
+            "neutral": 0.7454285714285714,
+            "negative": 0.1177142857142857,
+            "sentence_count": 7,
+            "compound_std": 0.5835107022084828,
+            "sentiment_range": [
+              -0.8268,
+              0.8955
+            ],
+            "chapter": "Chapter 8: It is necessary to say just _whom_ we regard as our antagonists:",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.18654444444444446,
+            "positive": 0.10333333333333333,
+            "neutral": 0.8455555555555556,
+            "negative": 0.051,
+            "sentence_count": 9,
+            "compound_std": 0.45067084344985364,
+            "sentiment_range": [
+              -0.8402,
+              0.7184
+            ],
+            "chapter": "Chapter 9: Upon this theological instinct I make war: I find the tracks of it",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.2219,
+            "positive": 0.095,
+            "neutral": 0.8112857142857143,
+            "negative": 0.09357142857142856,
+            "sentence_count": 7,
+            "compound_std": 0.4613934949073915,
+            "sentiment_range": [
+              -0.5859,
+              0.8338
+            ],
+            "chapter": "Chapter 10: Among Germans I am immediately understood when I say that theological",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.03552000000000001,
+            "positive": 0.05946666666666667,
+            "neutral": 0.8600666666666665,
+            "negative": 0.08059999999999999,
+            "sentence_count": 15,
+            "compound_std": 0.4575399701301151,
+            "sentiment_range": [
+              -0.7644,
+              0.7269
+            ],
+            "chapter": "Chapter 11: A word now against Kant as a moralist. A virtue must be _our_ invention;",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.47271111111111114,
+            "positive": 0.1874444444444444,
+            "neutral": 0.7872222222222223,
+            "negative": 0.025555555555555557,
+            "sentence_count": 9,
+            "compound_std": 0.33709958780568905,
+            "sentiment_range": [
+              0.0,
+              0.9612
+            ],
+            "chapter": "Chapter 12: I put aside a few sceptics, the types of decency in the history of",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.05761666666666668,
+            "positive": 0.12716666666666668,
+            "neutral": 0.7530000000000001,
+            "negative": 0.12,
+            "sentence_count": 6,
+            "compound_std": 0.5454397657446287,
+            "sentiment_range": [
+              -0.7893,
+              0.7774
+            ],
+            "chapter": "Chapter 13: Let us not underestimate this fact: that _we",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.21723636363636362,
+            "positive": 0.10554545454545455,
+            "neutral": 0.8313636363636363,
+            "negative": 0.06318181818181819,
+            "sentence_count": 11,
+            "compound_std": 0.460655574890488,
+            "sentiment_range": [
+              -0.5562,
+              0.9054
+            ],
+            "chapter": "Chapter 14: We have unlearned something. We have become more modest in every way. We",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.14992857142857147,
+            "positive": 0.05642857142857144,
+            "neutral": 0.7972857142857143,
+            "negative": 0.14614285714285713,
+            "sentence_count": 7,
+            "compound_std": 0.5013445713116613,
+            "sentiment_range": [
+              -0.8313,
+              0.6597
+            ],
+            "chapter": "Chapter 15: Under Christianity neither morality nor religion has any point of",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.49904615384615386,
+            "positive": 0.23399999999999999,
+            "neutral": 0.6843846153846154,
+            "negative": 0.0816923076923077,
+            "sentence_count": 13,
+            "compound_std": 0.44318594398598155,
+            "sentiment_range": [
+              -0.7147,
+              0.9042
+            ],
+            "chapter": "Chapter 16: A criticism of the _Christian concept of God_ leads inevitably to the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1839294117647059,
+            "positive": 0.10729411764705882,
+            "neutral": 0.8048235294117647,
+            "negative": 0.08794117647058824,
+            "sentence_count": 17,
+            "compound_std": 0.5391198652757548,
+            "sentiment_range": [
+              -0.6213,
+              0.9481
+            ],
+            "chapter": "Chapter 17: Wherever the will to power begins to decline, in whatever form, there is",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.07821666666666667,
+            "positive": 0.081,
+            "neutral": 0.8783333333333334,
+            "negative": 0.04066666666666666,
+            "sentence_count": 6,
+            "compound_std": 0.36531803686042597,
+            "sentiment_range": [
+              -0.636,
+              0.4939
+            ],
+            "chapter": "Chapter 18: The Christian concept of a god--the god as the patron of the sick, the",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.21191666666666667,
+            "positive": 0.07883333333333332,
+            "neutral": 0.7856666666666667,
+            "negative": 0.13549999999999998,
+            "sentence_count": 6,
+            "compound_std": 0.5588096468287649,
+            "sentiment_range": [
+              -0.875,
+              0.7436
+            ],
+            "chapter": "Chapter 19: The fact that the strong races of northern Europe did not repudiate this",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.01696499999999999,
+            "positive": 0.07964999999999998,
+            "neutral": 0.8726999999999998,
+            "negative": 0.04765,
+            "sentence_count": 20,
+            "compound_std": 0.4127798217875966,
+            "sentiment_range": [
+              -0.5994,
+              0.8074
+            ],
+            "chapter": "Chapter 20: In my condemnation of Christianity I surely hope I do no injustice to a",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.18765,
+            "positive": 0.1497,
+            "neutral": 0.7564,
+            "negative": 0.0939,
+            "sentence_count": 10,
+            "compound_std": 0.6090346069805886,
+            "sentiment_range": [
+              -0.8779,
+              0.936
+            ],
+            "chapter": "Chapter 21: The things necessary to Buddhism are a very mild climate, customs of",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.03165714285714285,
+            "positive": 0.10428571428571429,
+            "neutral": 0.8221428571428573,
+            "negative": 0.07371428571428572,
+            "sentence_count": 7,
+            "compound_std": 0.5486591339858679,
+            "sentiment_range": [
+              -0.802,
+              0.946
+            ],
+            "chapter": "Chapter 22: When Christianity departed from its native soil, that of the lowest",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.03442500000000001,
+            "positive": 0.10840000000000001,
+            "neutral": 0.78935,
+            "negative": 0.1022,
+            "sentence_count": 20,
+            "compound_std": 0.6537713781399427,
+            "sentiment_range": [
+              -0.9545,
+              0.9366
+            ],
+            "chapter": "Chapter 23: Buddhism, I repeat, is a hundred times more austere, more honest, more",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.04630714285714286,
+            "positive": 0.05007142857142858,
+            "neutral": 0.9090714285714284,
+            "negative": 0.04092857142857143,
+            "sentence_count": 14,
+            "compound_std": 0.38744673452209755,
+            "sentiment_range": [
+              -0.4854,
+              0.8553
+            ],
+            "chapter": "Chapter 24: Here I barely touch upon the problem of the _origin_ of Christianity.",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.21267647058823533,
+            "positive": 0.1388235294117647,
+            "neutral": 0.7655294117647059,
+            "negative": 0.09564705882352942,
+            "sentence_count": 17,
+            "compound_std": 0.5426386865606332,
+            "sentiment_range": [
+              -0.836,
+              0.9382
+            ],
+            "chapter": "Chapter 25: The history of Israel is invaluable as a typical history of an attempt",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.22039999999999998,
+            "positive": 0.115,
+            "neutral": 0.8206470588235294,
+            "negative": 0.06429411764705882,
+            "sentence_count": 17,
+            "compound_std": 0.5201704765804018,
+            "sentiment_range": [
+              -0.7351,
+              0.954
+            ],
+            "chapter": "Chapter 26: The concept of god falsified; the concept of morality falsified;--but",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.013454545454545436,
+            "positive": 0.07618181818181818,
+            "neutral": 0.8503636363636364,
+            "negative": 0.07336363636363637,
+            "sentence_count": 11,
+            "compound_std": 0.5076265706270817,
+            "sentiment_range": [
+              -0.9062,
+              0.7346
+            ],
+            "chapter": "Chapter 27: Christianity sprang from a soil so corrupt that on it everything",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.02147777777777777,
+            "positive": 0.06577777777777778,
+            "neutral": 0.8626666666666668,
+            "negative": 0.07155555555555555,
+            "sentence_count": 9,
+            "compound_std": 0.3761908226707935,
+            "sentiment_range": [
+              -0.659,
+              0.7003
+            ],
+            "chapter": "Chapter 28: As to whether he himself was conscious of this contradiction--whether,",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.01146666666666668,
+            "positive": 0.10233333333333333,
+            "neutral": 0.8157499999999999,
+            "negative": 0.08183333333333333,
+            "sentence_count": 12,
+            "compound_std": 0.5380885046987056,
+            "sentiment_range": [
+              -0.5859,
+              0.8674
+            ],
+            "chapter": "Chapter 29: What concerns _me_ is the psychological type of the Saviour. This type",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.2034166666666667,
+            "positive": 0.05433333333333334,
+            "neutral": 0.8479999999999999,
+            "negative": 0.09783333333333333,
+            "sentence_count": 6,
+            "compound_std": 0.4848912366592006,
+            "sentiment_range": [
+              -0.8957,
+              0.3182
+            ],
+            "chapter": "Chapter 30: _The instinctive hatred of reality_: the consequence of an extreme",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.005458333333333343,
+            "positive": 0.08225,
+            "neutral": 0.8288333333333333,
+            "negative": 0.08891666666666666,
+            "sentence_count": 12,
+            "compound_std": 0.443076995675946,
+            "sentiment_range": [
+              -0.7845,
+              0.7096
+            ],
+            "chapter": "Chapter 31: I have already given my answer to the problem. The prerequisite to it is",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.10739047619047616,
+            "positive": 0.10676190476190477,
+            "neutral": 0.8265714285714287,
+            "negative": 0.06657142857142857,
+            "sentence_count": 21,
+            "compound_std": 0.48859344274176403,
+            "sentiment_range": [
+              -0.5994,
+              0.9382
+            ],
+            "chapter": "Chapter 32: I can only repeat that I set myself against all efforts to intrude the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.08879411764705882,
+            "positive": 0.08364705882352942,
+            "neutral": 0.831764705882353,
+            "negative": 0.08464705882352941,
+            "sentence_count": 17,
+            "compound_std": 0.43091804662438354,
+            "sentiment_range": [
+              -0.8658,
+              0.6694
+            ],
+            "chapter": "Chapter 33: In the whole psychology of the \"Gospels\" the concepts of guilt and",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.10264000000000001,
+            "positive": 0.10840000000000001,
+            "neutral": 0.8259333333333333,
+            "negative": 0.06573333333333334,
+            "sentence_count": 15,
+            "compound_std": 0.46321185908825785,
+            "sentiment_range": [
+              -0.5267,
+              0.8225
+            ],
+            "chapter": "Chapter 34: If I understand anything at all about this great symbolist, it is this:",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.17806666666666668,
+            "positive": 0.09599999999999999,
+            "neutral": 0.8456666666666667,
+            "negative": 0.05833333333333333,
+            "sentence_count": 3,
+            "compound_std": 0.4587700174258218,
+            "sentiment_range": [
+              -0.8074,
+              0.2732
+            ],
+            "chapter": "Chapter 35: This \"bearer of glad tidings\" died as he lived and _taught_--_not_ to",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.80815,
+            "positive": 0.14150000000000001,
+            "neutral": 0.8049999999999999,
+            "negative": 0.0535,
+            "sentence_count": 2,
+            "compound_std": 0.08975,
+            "sentiment_range": [
+              0.7184,
+              0.8979
+            ],
+            "chapter": "Chapter 36: --We free spirits--we are the first to have the necessary prerequisite",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.03266,
+            "positive": 0.0698,
+            "neutral": 0.8422000000000001,
+            "negative": 0.0882,
+            "sentence_count": 5,
+            "compound_std": 0.5426181073277964,
+            "sentiment_range": [
+              -0.7717,
+              0.9117
+            ],
+            "chapter": "Chapter 37: --Our age is proud of its historical sense: how, then, could it delude",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.12426428571428569,
+            "positive": 0.06585714285714286,
+            "neutral": 0.8261428571428571,
+            "negative": 0.10792857142857142,
+            "sentence_count": 14,
+            "compound_std": 0.5257838931499503,
+            "sentiment_range": [
+              -0.891,
+              0.886
+            ],
+            "chapter": "Chapter 38: --I cannot, at this place, avoid a sigh. There are days when I am",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.016087500000000005,
+            "positive": 0.0481875,
+            "neutral": 0.9004375,
+            "negative": 0.0513125,
+            "sentence_count": 16,
+            "compound_std": 0.44903053887653344,
+            "sentiment_range": [
+              -0.5574,
+              0.969
+            ],
+            "chapter": "Chapter 39: --I shall go back a bit, and tell you the _authentic_ history of",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.04934285714285717,
+            "positive": 0.12504761904761905,
+            "neutral": 0.7887619047619048,
+            "negative": 0.08619047619047618,
+            "sentence_count": 21,
+            "compound_std": 0.5840731155889145,
+            "sentiment_range": [
+              -0.9357,
+              0.886
+            ],
+            "chapter": "Chapter 40: --The fate of the Gospels was decided by death--it hung on the \"cross.\"...",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.24489999999999998,
+            "positive": 0.1482857142857143,
+            "neutral": 0.7240000000000001,
+            "negative": 0.1277142857142857,
+            "sentence_count": 7,
+            "compound_std": 0.41928221999030674,
+            "sentiment_range": [
+              -0.9183,
+              0.5093
+            ],
+            "chapter": "Chapter 41: --And from that time onward an absurd problem offered itself: \"how",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.18290588235294117,
+            "positive": 0.07276470588235295,
+            "neutral": 0.8184117647058824,
+            "negative": 0.1088235294117647,
+            "sentence_count": 17,
+            "compound_std": 0.4948366378924382,
+            "sentiment_range": [
+              -0.8555,
+              0.7263
+            ],
+            "chapter": "Chapter 42: One now begins to see just _what_ it was that came to an end with the",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.006883333333333334,
+            "positive": 0.10391666666666667,
+            "neutral": 0.8152500000000001,
+            "negative": 0.08075,
+            "sentence_count": 12,
+            "compound_std": 0.40050684520436797,
+            "sentiment_range": [
+              -0.9169,
+              0.5106
+            ],
+            "chapter": "Chapter 43: When the centre of gravity of life is placed, _not_ in life itself, but",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.026634782608695663,
+            "positive": 0.10208695652173914,
+            "neutral": 0.8112173913043479,
+            "negative": 0.08678260869565217,
+            "sentence_count": 23,
+            "compound_std": 0.5453324726684555,
+            "sentiment_range": [
+              -0.8934,
+              0.9565
+            ],
+            "chapter": "Chapter 44: --The gospels are invaluable as evidence of the corruption that was",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.081436,
+            "positive": 0.06983999999999999,
+            "neutral": 0.91172,
+            "negative": 0.018439999999999998,
+            "sentence_count": 25,
+            "compound_std": 0.3278245175455918,
+            "sentiment_range": [
+              -0.765,
+              0.9201
+            ],
+            "chapter": "Chapter 45: --I offer a few examples of the sort of thing these petty people have",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.12958399999999998,
+            "positive": 0.08048,
+            "neutral": 0.8970800000000001,
+            "negative": 0.02244,
+            "sentence_count": 25,
+            "compound_std": 0.35585711253816465,
+            "sentiment_range": [
+              -0.6124,
+              0.9744
+            ],
+            "chapter": "Chapter 46: [18])--Principle of \"Christian love\": it insists upon being well",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.044878260869565215,
+            "positive": 0.0828695652173913,
+            "neutral": 0.8073913043478261,
+            "negative": 0.10986956521739129,
+            "sentence_count": 23,
+            "compound_std": 0.542503573986642,
+            "sentiment_range": [
+              -0.7922,
+              0.9509
+            ],
+            "chapter": "Chapter 46: --_What follows, then?_ That one had better put on gloves before reading",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.16836250000000003,
+            "positive": 0.09212499999999998,
+            "neutral": 0.836375,
+            "negative": 0.07162500000000001,
+            "sentence_count": 8,
+            "compound_std": 0.49958938373803535,
+            "sentiment_range": [
+              -0.5719,
+              0.936
+            ],
+            "chapter": "Chapter 47: --The thing that sets us apart is not that we are unable to find God,",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.258144,
+            "positive": 0.08639999999999999,
+            "neutral": 0.7086799999999998,
+            "negative": 0.20507999999999998,
+            "sentence_count": 25,
+            "compound_std": 0.47315223687942126,
+            "sentiment_range": [
+              -0.9323,
+              0.7579
+            ],
+            "chapter": "Chapter 48: --Has any one ever clearly understood the celebrated story at the",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.09898181818181818,
+            "positive": 0.07118181818181818,
+            "neutral": 0.7557272727272728,
+            "negative": 0.17300000000000001,
+            "sentence_count": 11,
+            "compound_std": 0.5342984079709864,
+            "sentiment_range": [
+              -0.8975,
+              0.7096
+            ],
+            "chapter": "Chapter 49: --I have been understood. At the opening of the Bible there is the",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.5241133333333333,
+            "positive": 0.21253333333333335,
+            "neutral": 0.7481333333333334,
+            "negative": 0.039266666666666665,
+            "sentence_count": 15,
+            "compound_std": 0.40965484474398955,
+            "sentiment_range": [
+              -0.4201,
+              0.9095
+            ],
+            "chapter": "Chapter 50: --In this place I can't permit myself to omit a psychology of \"belief,\"",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.13154117647058824,
+            "positive": 0.07088235294117648,
+            "neutral": 0.8183529411764705,
+            "negative": 0.11070588235294117,
+            "sentence_count": 17,
+            "compound_std": 0.5955351247198494,
+            "sentiment_range": [
+              -0.9113,
+              0.886
+            ],
+            "chapter": "Chapter 51: The fact that faith, under certain circumstances, may work for",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.06358695652173912,
+            "positive": 0.0626086956521739,
+            "neutral": 0.8199565217391304,
+            "negative": 0.11743478260869568,
+            "sentence_count": 23,
+            "compound_std": 0.44711048270300163,
+            "sentiment_range": [
+              -0.7269,
+              0.9287
+            ],
+            "chapter": "Chapter 52: Christianity also stands in opposition to all _intellectual_",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.04733124999999999,
+            "positive": 0.09418749999999998,
+            "neutral": 0.8201875,
+            "negative": 0.0856875,
+            "sentence_count": 16,
+            "compound_std": 0.49656990283185454,
+            "sentiment_range": [
+              -0.9366,
+              0.9409
+            ],
+            "chapter": "Chapter 53: --It is so little true that _martyrs_ offer any support to the truth of",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.41033157894736844,
+            "positive": 0.15352631578947368,
+            "neutral": 0.775,
+            "negative": 0.07142105263157895,
+            "sentence_count": 19,
+            "compound_std": 0.40723527669114995,
+            "sentiment_range": [
+              -0.5106,
+              0.9756
+            ],
+            "chapter": "Chapter 54: Do not let yourself be deceived: great intellects are sceptical.",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.008728571428571414,
+            "positive": 0.09061904761904763,
+            "neutral": 0.8410000000000001,
+            "negative": 0.06852380952380951,
+            "sentence_count": 21,
+            "compound_std": 0.4033679734941984,
+            "sentiment_range": [
+              -0.8402,
+              0.7783
+            ],
+            "chapter": "Chapter 55: --One step further in the psychology of conviction, of \"faith.\" It is",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.006141666666666652,
+            "positive": 0.05308333333333334,
+            "neutral": 0.9050833333333334,
+            "negative": 0.041833333333333333,
+            "sentence_count": 12,
+            "compound_std": 0.44144372510044305,
+            "sentiment_range": [
+              -0.7679,
+              0.9712
+            ],
+            "chapter": "Chapter 56: --In the last analysis it comes to this: what is the _end_ of lying? The",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.32312564102564106,
+            "positive": 0.16356410256410256,
+            "neutral": 0.756820512820513,
+            "negative": 0.07958974358974359,
+            "sentence_count": 39,
+            "compound_std": 0.5329657754528674,
+            "sentiment_range": [
+              -0.7096,
+              0.9668
+            ],
+            "chapter": "Chapter 57: One catches the _unholiness_ of Christian means _in flagranti_ by the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.0503764705882353,
+            "positive": 0.07847058823529413,
+            "neutral": 0.8216470588235294,
+            "negative": 0.09988235294117646,
+            "sentence_count": 17,
+            "compound_std": 0.5086070047971417,
+            "sentiment_range": [
+              -0.8402,
+              0.8932
+            ],
+            "chapter": "Chapter 58: In point of fact, the end for which one lies makes a great difference:",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.10959090909090907,
+            "positive": 0.08977272727272727,
+            "neutral": 0.8480454545454545,
+            "negative": 0.062227272727272735,
+            "sentence_count": 22,
+            "compound_std": 0.4679227412036492,
+            "sentiment_range": [
+              -0.6696,
+              0.9323
+            ],
+            "chapter": "Chapter 59: The whole labour of the ancient world gone for _naught_: I have no word",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.040657894736842115,
+            "positive": 0.12631578947368424,
+            "neutral": 0.7963157894736842,
+            "negative": 0.07736842105263159,
+            "sentence_count": 19,
+            "compound_std": 0.5357334120189469,
+            "sentiment_range": [
+              -0.807,
+              0.8625
+            ],
+            "chapter": "Chapter 60: Christianity destroyed for us the whole harvest of ancient civilization,",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.05886190476190476,
+            "positive": 0.10528571428571427,
+            "neutral": 0.781,
+            "negative": 0.11376190476190477,
+            "sentence_count": 21,
+            "compound_std": 0.5226930871081591,
+            "sentiment_range": [
+              -0.7783,
+              0.9885
+            ],
+            "chapter": "Chapter 61: Here it becomes necessary to call up a memory that must be a hundred",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.010290909090909073,
+            "positive": 0.14472727272727273,
+            "neutral": 0.7485454545454545,
+            "negative": 0.10672727272727273,
+            "sentence_count": 11,
+            "compound_std": 0.5903998882953599,
+            "sentiment_range": [
+              -0.9577,
+              0.8724
+            ],
+            "chapter": "Chapter 62: --With this I come to a conclusion and pronounce my judgment. I",
+            "classification": "neutral"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.19463333333333335,
+          0.19718571428571427,
+          0.1677333333333333,
+          0.4808333333333333,
+          -0.5451666666666667,
+          0.070625,
+          -0.23763125000000002,
+          -0.06775714285714289,
+          0.18654444444444446,
+          0.2219,
+          0.03552000000000001,
+          0.47271111111111114,
+          -0.05761666666666668,
+          0.21723636363636362,
+          -0.14992857142857147,
+          0.49904615384615386,
+          0.1839294117647059,
+          0.07821666666666667,
+          -0.21191666666666667,
+          0.01696499999999999,
+          0.18765,
+          0.03165714285714285,
+          0.03442500000000001,
+          0.04630714285714286,
+          0.21267647058823533,
+          0.22039999999999998,
+          -0.013454545454545436,
+          -0.02147777777777777,
+          -0.01146666666666668,
+          -0.2034166666666667,
+          0.005458333333333343,
+          0.10739047619047616,
+          0.08879411764705882,
+          0.10264000000000001,
+          -0.17806666666666668,
+          0.80815,
+          -0.03266,
+          -0.12426428571428569,
+          0.016087500000000005,
+          0.04934285714285717,
+          -0.24489999999999998,
+          -0.18290588235294117,
+          0.006883333333333334,
+          0.026634782608695663,
+          0.081436,
+          0.12958399999999998,
+          -0.044878260869565215,
+          0.16836250000000003,
+          -0.258144,
+          -0.09898181818181818,
+          0.5241133333333333,
+          -0.13154117647058824,
+          -0.06358695652173912,
+          0.04733124999999999,
+          0.41033157894736844,
+          0.008728571428571414,
+          0.006141666666666652,
+          0.32312564102564106,
+          0.0503764705882353,
+          0.10959090909090907,
+          0.040657894736842115,
+          -0.05886190476190476,
+          0.010290909090909073
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.14593074783778,
+          "unique_words": 4775,
+          "total_words": 32721,
+          "hapax_legomena": 2591,
+          "avg_word_frequency": 6.852565445026178
+        },
+        "sentence_metrics": {
+          "sentence_count": 1164,
+          "avg_sentence_length": 35.23969072164948,
+          "sentence_length_std": 28.465994155694695,
+          "min_sentence_length": 2,
+          "max_sentence_length": 243
+        },
+        "word_metrics": {
+          "avg_word_length": 4.535680449864001,
+          "word_length_std": 2.6393881884472057,
+          "min_word_length": 1,
+          "max_word_length": 21
+        },
+        "readability": {
+          "flesch_reading_ease": 49.118227565244695,
+          "flesch_kincaid_grade": 13.39183355009882,
+          "gunning_fog": 16.982540831780845,
+          "avg_syllables_per_word": 1.5270010085266343,
+          "complex_word_percentage": 14.345527337184071
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 21.567189266831697,
+          "avg_word_length": 4.535680449864001,
+          "words_over_10_chars": 2010,
+          "words_over_15_chars": 42
+        },
+        "distinctive_words": [
+          [
+            "god",
+            0.3690892009557183
+          ],
+          [
+            "man",
+            0.2736350972602739
+          ],
+          [
+            "christianity",
+            0.23333225347775294
+          ],
+          [
+            "christian",
+            0.20575662352129123
+          ],
+          [
+            "life",
+            0.18454460047785914
+          ],
+          [
+            "world",
+            0.18030219586917273
+          ],
+          [
+            "things",
+            0.13787814978230856
+          ],
+          [
+            "sort",
+            0.13277846125544376
+          ],
+          [
+            "truth",
+            0.12939334056493573
+          ],
+          [
+            "great",
+            0.12727213826059253
+          ],
+          [
+            "men",
+            0.1209085313475629
+          ],
+          [
+            "priest",
+            0.11381010964752324
+          ],
+          [
+            "self",
+            0.11242372213019006
+          ],
+          [
+            "gospels",
+            0.11139913108164182
+          ],
+          [
+            "instinct",
+            0.11030251982584685
+          ],
+          [
+            "today",
+            0.10238636812085271
+          ],
+          [
+            "power",
+            0.10181771060847401
+          ],
+          [
+            "fact",
+            0.09969650830413081
+          ],
+          [
+            "nietzsche",
+            0.0954541036954444
+          ],
+          [
+            "concept",
+            0.08759160460800297
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "christianity",
+          "every",
+          "upon",
+          "christian",
+          "even",
+          "life",
+          "world",
+          "things",
+          "whole",
+          "great",
+          "must",
+          "truth",
+          "sort",
+          "would",
+          "power",
+          "instinct",
+          "fact",
+          "nietzsche",
+          "priest",
+          "first",
+          "faith",
+          "merely",
+          "everything",
+          "made",
+          "means",
+          "people",
+          "true",
+          "make",
+          "order",
+          "instincts",
+          "german",
+          "death",
+          "form",
+          "good",
+          "church",
+          "concept",
+          "reality",
+          "ever",
+          "also",
+          "time",
+          "word",
+          "thing",
+          "long",
+          "necessary",
+          "nothing",
+          "history",
+          "makes",
+          "simply",
+          "know",
+          "gospels",
+          "always",
+          "much",
+          "mankind",
+          "values",
+          "paul",
+          "like",
+          "natural",
+          "spirit",
+          "almost",
+          "type",
+          "enough",
+          "mere",
+          "among",
+          "could",
+          "possible",
+          "actually",
+          "idea",
+          "nature",
+          "becomes",
+          "free",
+          "intellectual",
+          "already",
+          "many",
+          "today",
+          "reason",
+          "shall",
+          "holy",
+          "still",
+          "soul",
+          "concepts",
+          "longer",
+          "kingdom",
+          "work",
+          "contrary",
+          "anything",
+          "moral",
+          "never",
+          "last",
+          "years",
+          "morality",
+          "religion",
+          "called",
+          "point",
+          "became",
+          "virtue",
+          "state",
+          "something",
+          "salvation",
+          "existence",
+          "ideas"
+        ],
+        "frequencies": [
+          109,
+          99,
+          92,
+          92,
+          90,
+          84,
+          83,
+          65,
+          62,
+          60,
+          59,
+          59,
+          56,
+          53,
+          48,
+          48,
+          47,
+          43,
+          42,
+          41,
+          40,
+          40,
+          40,
+          37,
+          37,
+          37,
+          36,
+          36,
+          36,
+          36,
+          35,
+          35,
+          33,
+          33,
+          33,
+          33,
+          33,
+          32,
+          32,
+          31,
+          31,
+          30,
+          30,
+          30,
+          30,
+          30,
+          29,
+          29,
+          29,
+          29,
+          28,
+          28,
+          28,
+          27,
+          27,
+          27,
+          27,
+          26,
+          25,
+          25,
+          25,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          23,
+          23,
+          23,
+          23,
+          23,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          21,
+          21,
+          21,
+          21,
+          21,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          19
+        ]
+      }
+    },
+    "The Birth of Tragedy": {
+      "basic_info": {
+        "word_count": 54026,
+        "char_count": 327865,
+        "num_chapters": 34
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.13658585714285715,
+          "positive": 0.10067428571428573,
+          "neutral": 0.827445,
+          "negative": 0.0718907142857143,
+          "sentence_count": 1400,
+          "compound_std": 0.5290081490730496,
+          "sentiment_range": [
+            -0.9813,
+            0.9944
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": -0.388725,
+            "positive": 0.07675,
+            "neutral": 0.7405,
+            "negative": 0.1835,
+            "sentence_count": 4,
+            "compound_std": 0.6864862284671122,
+            "sentiment_range": [
+              -0.9011,
+              0.7936
+            ],
+            "chapter": "Chapter 2: What I then laid hands on, something terrible and dangerous, a",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.09787142857142858,
+            "positive": 0.022428571428571426,
+            "neutral": 0.9074285714285715,
+            "negative": 0.06985714285714285,
+            "sentence_count": 7,
+            "compound_std": 0.41147572299255386,
+            "sentiment_range": [
+              -0.765,
+              0.6894
+            ],
+            "chapter": "Chapter 3: I say again, to-day it is an impossible book to me,--I call it badly",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.025530434782608722,
+            "positive": 0.09134782608695652,
+            "neutral": 0.8239130434782609,
+            "negative": 0.08460869565217392,
+            "sentence_count": 23,
+            "compound_std": 0.4649109530771623,
+            "sentiment_range": [
+              -0.9493,
+              0.7906
+            ],
+            "chapter": "Chapter 4: Ay, what is Dionysian?--In this book may be found an answer,--a",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.23214615384615384,
+            "positive": 0.07007692307692308,
+            "neutral": 0.7952307692307693,
+            "negative": 0.13453846153846155,
+            "sentence_count": 13,
+            "compound_std": 0.4980433632887565,
+            "sentiment_range": [
+              -0.9762,
+              0.5267
+            ],
+            "chapter": "Chapter 5: Already in the foreword to Richard Wagner, art---and _not_ morality--is",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.011709090909090912,
+            "positive": 0.08554545454545454,
+            "neutral": 0.797909090909091,
+            "negative": 0.11663636363636365,
+            "sentence_count": 11,
+            "compound_std": 0.584995912113993,
+            "sentiment_range": [
+              -0.7894,
+              0.8122
+            ],
+            "chapter": "Chapter 6: You see which problem I ventured to touch upon in this early work?...",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.1198277777777778,
+            "positive": 0.12211111111111113,
+            "neutral": 0.7785277777777778,
+            "negative": 0.09936111111111111,
+            "sentence_count": 36,
+            "compound_std": 0.5488648941280294,
+            "sentiment_range": [
+              -0.8738,
+              0.9789
+            ],
+            "chapter": "Chapter 7: --But, my dear Sir, if _your_ book is not Romanticism, what in",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.22453877551020407,
+            "positive": 0.11926530612244897,
+            "neutral": 0.8392448979591838,
+            "negative": 0.04148979591836734,
+            "sentence_count": 49,
+            "compound_std": 0.4636248570647356,
+            "sentiment_range": [
+              -0.8962,
+              0.9803
+            ],
+            "chapter": "Chapter 1: We shall have gained much for the science of æsthetics, when once we",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1860962962962963,
+            "positive": 0.09407407407407407,
+            "neutral": 0.8530000000000001,
+            "negative": 0.053037037037037035,
+            "sentence_count": 27,
+            "compound_std": 0.49051983950625844,
+            "sentiment_range": [
+              -0.8807,
+              0.9753
+            ],
+            "chapter": "Chapter 2: Thus far we have considered the Apollonian and his antithesis,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.30732857142857145,
+            "positive": 0.1349142857142857,
+            "neutral": 0.8165142857142856,
+            "negative": 0.04851428571428572,
+            "sentence_count": 35,
+            "compound_std": 0.5040878622799394,
+            "sentiment_range": [
+              -0.8689,
+              0.9604
+            ],
+            "chapter": "Chapter 3: In order to comprehend this, we must take down the artistic structure,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.34184193548387093,
+            "positive": 0.1094193548387097,
+            "neutral": 0.8451612903225807,
+            "negative": 0.045354838709677416,
+            "sentence_count": 31,
+            "compound_std": 0.4553305872937663,
+            "sentiment_range": [
+              -0.9501,
+              0.9218
+            ],
+            "chapter": "Chapter 4: Concerning this naïve artist the analogy of dreams will enlighten us to",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1118860465116279,
+            "positive": 0.0735813953488372,
+            "neutral": 0.8715813953488373,
+            "negative": 0.05486046511627907,
+            "sentence_count": 43,
+            "compound_std": 0.501178212550718,
+            "sentiment_range": [
+              -0.7845,
+              0.9464
+            ],
+            "chapter": "Chapter 5: We now approach the real purpose of our investigation, which aims",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.14738484848484848,
+            "positive": 0.06657575757575758,
+            "neutral": 0.9025454545454547,
+            "negative": 0.030939393939393944,
+            "sentence_count": 33,
+            "compound_std": 0.3605953159591007,
+            "sentiment_range": [
+              -0.7579,
+              0.7184
+            ],
+            "chapter": "Chapter 6: With reference to Archilochus, it has been established by critical",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.015529787234042558,
+            "positive": 0.08061702127659574,
+            "neutral": 0.8364893617021275,
+            "negative": 0.08293617021276596,
+            "sentence_count": 47,
+            "compound_std": 0.5307339153473751,
+            "sentiment_range": [
+              -0.9637,
+              0.9539
+            ],
+            "chapter": "Chapter 7: We shall now have to avail ourselves of all the principles of art",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.2134734375,
+            "positive": 0.0801875,
+            "neutral": 0.881125,
+            "negative": 0.0386875,
+            "sentence_count": 64,
+            "compound_std": 0.46928593404041374,
+            "sentiment_range": [
+              -0.7717,
+              0.9505
+            ],
+            "chapter": "Chapter 8: The satyr, like the idyllic shepherd of our more recent time, is the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.13372264150943394,
+            "positive": 0.1091320754716981,
+            "neutral": 0.8168867924528302,
+            "negative": 0.07409433962264152,
+            "sentence_count": 53,
+            "compound_std": 0.5739334734446078,
+            "sentiment_range": [
+              -0.9413,
+              0.933
+            ],
+            "chapter": "Chapter 9: Whatever rises to the surface in the dialogue of the Apollonian part",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.04471176470588234,
+            "positive": 0.08470588235294117,
+            "neutral": 0.8269117647058823,
+            "negative": 0.08838235294117648,
+            "sentence_count": 34,
+            "compound_std": 0.5311949585408721,
+            "sentiment_range": [
+              -0.802,
+              0.9207
+            ],
+            "chapter": "Chapter 10: It is an indisputable tradition that Greek tragedy in its earliest",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.15452631578947368,
+            "positive": 0.1200701754385965,
+            "neutral": 0.7869298245614034,
+            "negative": 0.09305263157894737,
+            "sentence_count": 57,
+            "compound_std": 0.5988544943872678,
+            "sentiment_range": [
+              -0.9813,
+              0.9856
+            ],
+            "chapter": "Chapter 11: Greek tragedy had a fate different from that of all her older sister",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.02033559322033898,
+            "positive": 0.08791525423728815,
+            "neutral": 0.8360338983050847,
+            "negative": 0.07605084745762712,
+            "sentence_count": 59,
+            "compound_std": 0.527975515855889,
+            "sentiment_range": [
+              -0.9231,
+              0.9422
+            ],
+            "chapter": "Chapter 12: Before we name this other spectator, let us pause here a moment in",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.13783428571428574,
+            "positive": 0.08994285714285714,
+            "neutral": 0.8109714285714286,
+            "negative": 0.09908571428571428,
+            "sentence_count": 35,
+            "compound_std": 0.5478728585266878,
+            "sentiment_range": [
+              -0.8697,
+              0.9538
+            ],
+            "chapter": "Chapter 13: That Socrates stood in close relationship to Euripides in the tendency",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.1958756756756757,
+            "positive": 0.07756756756756755,
+            "neutral": 0.8156216216216216,
+            "negative": 0.10683783783783783,
+            "sentence_count": 37,
+            "compound_std": 0.5307822699158063,
+            "sentiment_range": [
+              -0.9201,
+              0.9403
+            ],
+            "chapter": "Chapter 14: Let us now imagine the one great Cyclopean eye of Socrates fixed on",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.21586129032258064,
+            "positive": 0.10793548387096775,
+            "neutral": 0.795774193548387,
+            "negative": 0.09629032258064517,
+            "sentence_count": 31,
+            "compound_std": 0.595853147461915,
+            "sentiment_range": [
+              -0.926,
+              0.9531
+            ],
+            "chapter": "Chapter 15: In the sense of these last portentous questions it must now be",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.22308043478260872,
+            "positive": 0.08789130434782608,
+            "neutral": 0.8716521739130435,
+            "negative": 0.04045652173913043,
+            "sentence_count": 46,
+            "compound_std": 0.4281736881522472,
+            "sentiment_range": [
+              -0.6637,
+              0.9531
+            ],
+            "chapter": "Chapter 16: By this elaborate historical example we have endeavoured to make it",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.14530454545454546,
+            "positive": 0.12445454545454546,
+            "neutral": 0.7919772727272726,
+            "negative": 0.08352272727272728,
+            "sentence_count": 44,
+            "compound_std": 0.5918593433004722,
+            "sentiment_range": [
+              -0.9118,
+              0.9584
+            ],
+            "chapter": "Chapter 17: Dionysian art, too, seeks to convince us of the eternal joy of",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.14049615384615388,
+            "positive": 0.10146153846153846,
+            "neutral": 0.8250384615384616,
+            "negative": 0.07361538461538461,
+            "sentence_count": 26,
+            "compound_std": 0.6048104639413073,
+            "sentiment_range": [
+              -0.8976,
+              0.9506
+            ],
+            "chapter": "Chapter 18: It is an eternal phenomenon: the avidious will can always, by means",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.26062698412698404,
+            "positive": 0.10473015873015874,
+            "neutral": 0.856,
+            "negative": 0.039317460317460314,
+            "sentence_count": 63,
+            "compound_std": 0.49236347755876614,
+            "sentiment_range": [
+              -0.743,
+              0.969
+            ],
+            "chapter": "Chapter 19: We cannot designate the intrinsic substance of Socratic culture more",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.07658800000000003,
+            "positive": 0.11656000000000001,
+            "neutral": 0.7637199999999998,
+            "negative": 0.11980000000000002,
+            "sentence_count": 25,
+            "compound_std": 0.6004771191777418,
+            "sentiment_range": [
+              -0.9694,
+              0.9345
+            ],
+            "chapter": "Chapter 20: It may be weighed some day before an impartial judge, in what time and",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.174324,
+            "positive": 0.10711999999999999,
+            "neutral": 0.78756,
+            "negative": 0.10526000000000002,
+            "sentence_count": 50,
+            "compound_std": 0.5522352421061155,
+            "sentiment_range": [
+              -0.9451,
+              0.9944
+            ],
+            "chapter": "Chapter 21: Gliding back from these hortative tones into the mood which befits",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.19941515151515152,
+            "positive": 0.12493939393939392,
+            "neutral": 0.7938787878787877,
+            "negative": 0.08118181818181817,
+            "sentence_count": 33,
+            "compound_std": 0.5863849387877371,
+            "sentiment_range": [
+              -0.7848,
+              0.9349
+            ],
+            "chapter": "Chapter 22: Let the attentive friend picture to himself purely and simply,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.22138333333333335,
+            "positive": 0.10203333333333335,
+            "neutral": 0.8262999999999999,
+            "negative": 0.07163333333333334,
+            "sentence_count": 30,
+            "compound_std": 0.5742710115635493,
+            "sentiment_range": [
+              -0.9455,
+              0.9298
+            ],
+            "chapter": "Chapter 23: He who wishes to test himself rigorously as to how he is related to the",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.18039999999999998,
+            "positive": 0.1315897435897436,
+            "neutral": 0.7908205128205128,
+            "negative": 0.07764102564102564,
+            "sentence_count": 39,
+            "compound_std": 0.5396460069531811,
+            "sentiment_range": [
+              -0.802,
+              0.9648
+            ],
+            "chapter": "Chapter 24: Among the peculiar artistic effects of musical tragedy we had to",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1431714285714286,
+            "positive": 0.10174285714285713,
+            "neutral": 0.8367428571428571,
+            "negative": 0.061514285714285716,
+            "sentence_count": 35,
+            "compound_std": 0.5369432630689225,
+            "sentiment_range": [
+              -0.886,
+              0.9661
+            ],
+            "chapter": "Chapter 25: Music and tragic myth are equally the expression of the Dionysian",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.20508,
+            "positive": 0.1055,
+            "neutral": 0.8176,
+            "negative": 0.07669999999999999,
+            "sentence_count": 10,
+            "compound_std": 0.4169125419077723,
+            "sentiment_range": [
+              -0.4215,
+              0.7964
+            ],
+            "chapter": "Chapter 2: \"This beginning is singular beyond measure. I had for my own inmost",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.25533333333333336,
+            "positive": 0.051777777777777784,
+            "neutral": 0.8568888888888889,
+            "negative": 0.09133333333333334,
+            "sentence_count": 9,
+            "compound_std": 0.3470754512910541,
+            "sentiment_range": [
+              -0.7579,
+              0.3818
+            ],
+            "chapter": "Chapter 3: \"To what extent I had just thereby found the concept 'tragic,' the",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.19713846153846154,
+            "positive": 0.10215384615384614,
+            "neutral": 0.8734615384615384,
+            "negative": 0.024384615384615387,
+            "sentence_count": 13,
+            "compound_std": 0.5023502065881645,
+            "sentiment_range": [
+              -0.918,
+              0.8834
+            ],
+            "chapter": "Chapter 4: \"In this book speaks a prodigious hope. In fine, I see no reason",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          -0.388725,
+          -0.09787142857142858,
+          -0.025530434782608722,
+          -0.23214615384615384,
+          -0.011709090909090912,
+          0.1198277777777778,
+          0.22453877551020407,
+          0.1860962962962963,
+          0.30732857142857145,
+          0.34184193548387093,
+          0.1118860465116279,
+          0.14738484848484848,
+          -0.015529787234042558,
+          0.2134734375,
+          0.13372264150943394,
+          0.04471176470588234,
+          0.15452631578947368,
+          0.02033559322033898,
+          0.13783428571428574,
+          -0.1958756756756757,
+          0.21586129032258064,
+          0.22308043478260872,
+          0.14530454545454546,
+          0.14049615384615388,
+          0.26062698412698404,
+          0.07658800000000003,
+          0.174324,
+          0.19941515151515152,
+          0.22138333333333335,
+          0.18039999999999998,
+          0.1431714285714286,
+          0.20508,
+          -0.25533333333333336,
+          0.19713846153846154
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.12543750705656542,
+          "unique_words": 6666,
+          "total_words": 53142,
+          "hapax_legomena": 3359,
+          "avg_word_frequency": 7.972097209720972
+        },
+        "sentence_metrics": {
+          "sentence_count": 1400,
+          "avg_sentence_length": 44.475,
+          "sentence_length_std": 31.171772086296283,
+          "min_sentence_length": 1,
+          "max_sentence_length": 235
+        },
+        "word_metrics": {
+          "avg_word_length": 4.763369839298483,
+          "word_length_std": 2.7493875099417076,
+          "min_word_length": 1,
+          "max_word_length": 18
+        },
+        "readability": {
+          "flesch_reading_ease": 32.49684338376426,
+          "flesch_kincaid_grade": 18.156637633402692,
+          "gunning_fog": 22.24225210084034,
+          "avg_syllables_per_word": 1.6053215912084604,
+          "complex_word_percentage": 17.647058823529413
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 24.92190734259155,
+          "avg_word_length": 4.763369839298483,
+          "words_over_10_chars": 3910,
+          "words_over_15_chars": 88
+        },
+        "distinctive_words": [
+          [
+            "dionysian",
+            0.3041776880762791
+          ],
+          [
+            "art",
+            0.25871485922185794
+          ],
+          [
+            "music",
+            0.24130135908192518
+          ],
+          [
+            "apollonian",
+            0.24101469945454201
+          ],
+          [
+            "world",
+            0.22140021606485918
+          ],
+          [
+            "myth",
+            0.20882391647078122
+          ],
+          [
+            "tragedy",
+            0.19901143017065995
+          ],
+          [
+            "chorus",
+            0.1957724216913574
+          ],
+          [
+            "euripides",
+            0.1806482586965452
+          ],
+          [
+            "man",
+            0.18035410859216058
+          ],
+          [
+            "life",
+            0.13433271536519545
+          ],
+          [
+            "nature",
+            0.1318450724880622
+          ],
+          [
+            "apollo",
+            0.11835575569773649
+          ],
+          [
+            "time",
+            0.11567539378669608
+          ],
+          [
+            "tragic",
+            0.11194392947099621
+          ],
+          [
+            "greek",
+            0.10448100083959647
+          ],
+          [
+            "culture",
+            0.09826189364676334
+          ],
+          [
+            "new",
+            0.09204278645393023
+          ],
+          [
+            "existence",
+            0.09204278645393023
+          ],
+          [
+            "phenomenon",
+            0.08619999521176047
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "music",
+          "dionysian",
+          "world",
+          "tragedy",
+          "must",
+          "even",
+          "life",
+          "nature",
+          "apollonian",
+          "time",
+          "also",
+          "first",
+          "tragic",
+          "greek",
+          "could",
+          "culture",
+          "myth",
+          "existence",
+          "chorus",
+          "would",
+          "however",
+          "things",
+          "still",
+          "appearance",
+          "like",
+          "form",
+          "euripides",
+          "artistic",
+          "greeks",
+          "socrates",
+          "every",
+          "order",
+          "artist",
+          "phenomenon",
+          "spirit",
+          "highest",
+          "perhaps",
+          "without",
+          "reality",
+          "thus",
+          "knowledge",
+          "true",
+          "upon",
+          "always",
+          "view",
+          "science",
+          "power",
+          "people",
+          "whole",
+          "means",
+          "poet",
+          "therefore",
+          "indeed",
+          "dionysus",
+          "present",
+          "eternal",
+          "sense",
+          "general",
+          "apollo",
+          "entire",
+          "wisdom",
+          "much",
+          "already",
+          "hand",
+          "something",
+          "individual",
+          "æsthetic",
+          "regard",
+          "german",
+          "great",
+          "according",
+          "able",
+          "drama",
+          "fact",
+          "expression",
+          "possible",
+          "spectator",
+          "picture",
+          "brother",
+          "ever",
+          "phenomena",
+          "hellenic",
+          "primordial",
+          "among",
+          "poetry",
+          "character",
+          "genius",
+          "book",
+          "hero",
+          "eyes",
+          "never",
+          "schopenhauer",
+          "modern",
+          "primitive",
+          "truth",
+          "essence",
+          "place",
+          "nothing",
+          "manner",
+          "state"
+        ],
+        "frequencies": [
+          192,
+          163,
+          160,
+          156,
+          124,
+          114,
+          104,
+          104,
+          99,
+          93,
+          91,
+          89,
+          87,
+          84,
+          80,
+          78,
+          75,
+          74,
+          73,
+          67,
+          67,
+          65,
+          63,
+          61,
+          60,
+          60,
+          58,
+          56,
+          56,
+          56,
+          55,
+          55,
+          55,
+          55,
+          53,
+          53,
+          51,
+          51,
+          50,
+          48,
+          48,
+          48,
+          47,
+          46,
+          46,
+          44,
+          43,
+          42,
+          42,
+          42,
+          42,
+          41,
+          41,
+          41,
+          39,
+          39,
+          38,
+          38,
+          38,
+          38,
+          38,
+          37,
+          37,
+          37,
+          36,
+          36,
+          36,
+          35,
+          35,
+          35,
+          35,
+          35,
+          35,
+          34,
+          34,
+          34,
+          34,
+          34,
+          33,
+          33,
+          33,
+          33,
+          33,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          31,
+          31,
+          31,
+          31,
+          30,
+          30,
+          30,
+          29,
+          29,
+          29,
+          29
+        ]
+      }
+    },
+    "The Genealogy of Morals": {
+      "basic_info": {
+        "word_count": 55347,
+        "char_count": 332784,
+        "num_chapters": 105
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.07153331249999999,
+          "positive": 0.10128625,
+          "neutral": 0.815920625,
+          "negative": 0.08278062500000001,
+          "sentence_count": 1600,
+          "compound_std": 0.5263211974251344,
+          "sentiment_range": [
+            -0.988,
+            0.9946
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.09044615384615386,
+            "positive": 0.11776923076923076,
+            "neutral": 0.8396153846153847,
+            "negative": 0.042692307692307696,
+            "sentence_count": 13,
+            "compound_std": 0.42659389193828506,
+            "sentiment_range": [
+              -0.6412,
+              0.7269
+            ],
+            "chapter": "Chapter 1: We are unknown, we knowers, ourselves to ourselves: this has its own",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.2691375,
+            "positive": 0.092,
+            "neutral": 0.875125,
+            "negative": 0.032875,
+            "sentence_count": 8,
+            "compound_std": 0.4270274579505984,
+            "sentiment_range": [
+              -0.4199,
+              0.9243
+            ],
+            "chapter": "Chapter 2: My thoughts concerning the _genealogy_ of our moral prejudices--for",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.025033333333333335,
+            "positive": 0.09266666666666666,
+            "neutral": 0.7755000000000001,
+            "negative": 0.13183333333333333,
+            "sentence_count": 12,
+            "compound_std": 0.5858508574903875,
+            "sentiment_range": [
+              -0.8375,
+              0.7506
+            ],
+            "chapter": "Chapter 3: Owing to a scrupulosity peculiar to myself, which I confess",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.07458124999999999,
+            "positive": 0.06268750000000001,
+            "neutral": 0.899125,
+            "negative": 0.0381875,
+            "sentence_count": 16,
+            "compound_std": 0.36889176125719786,
+            "sentiment_range": [
+              -0.6025,
+              0.8122
+            ],
+            "chapter": "Chapter 4: My first impulse to publish some of my hypotheses concerning the origin",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.1841142857142857,
+            "positive": 0.06899999999999999,
+            "neutral": 0.8035714285714286,
+            "negative": 0.12728571428571428,
+            "sentence_count": 7,
+            "compound_std": 0.6863657509532601,
+            "sentiment_range": [
+              -0.9562,
+              0.902
+            ],
+            "chapter": "Chapter 5: In reality I had set my heart at that time on something much more",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.08990909090909092,
+            "positive": 0.09845454545454545,
+            "neutral": 0.7815454545454547,
+            "negative": 0.11990909090909091,
+            "sentence_count": 11,
+            "compound_std": 0.49329495962363396,
+            "sentiment_range": [
+              -0.886,
+              0.631
+            ],
+            "chapter": "Chapter 6: This problem of the value of pity and of the pity-morality (I am an",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.15764615384615382,
+            "positive": 0.10123076923076925,
+            "neutral": 0.8300769230769229,
+            "negative": 0.06853846153846155,
+            "sentence_count": 13,
+            "compound_std": 0.5107888794876843,
+            "sentiment_range": [
+              -0.897,
+              0.9246
+            ],
+            "chapter": "Chapter 7: Enough, that after this vista had disclosed itself to me, I myself had",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.15453,
+            "positive": 0.0968,
+            "neutral": 0.8562,
+            "negative": 0.047099999999999996,
+            "sentence_count": 10,
+            "compound_std": 0.4222161935549133,
+            "sentiment_range": [
+              -0.34,
+              0.9201
+            ],
+            "chapter": "Chapter 8: If this writing be obscure to any individual, and jar on his ears, I",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.08561111111111114,
+            "positive": 0.048888888888888885,
+            "neutral": 0.7916666666666666,
+            "negative": 0.15933333333333333,
+            "sentence_count": 9,
+            "compound_std": 0.6068675261710645,
+            "sentiment_range": [
+              -0.9118,
+              0.9274
+            ],
+            "chapter": "Chapter 1: Those English psychologists, who up to the present are the only",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.30618750000000006,
+            "positive": 0.10724999999999998,
+            "neutral": 0.840625,
+            "negative": 0.052125000000000005,
+            "sentence_count": 16,
+            "compound_std": 0.45574751490682863,
+            "sentiment_range": [
+              -0.5719,
+              0.928
+            ],
+            "chapter": "Chapter 2: All honour, then, to the noble spirits who would fain dominate these",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.12356249999999999,
+            "positive": 0.068875,
+            "neutral": 0.883375,
+            "negative": 0.047875,
+            "sentence_count": 8,
+            "compound_std": 0.43059861802350224,
+            "sentiment_range": [
+              -0.4019,
+              0.8442
+            ],
+            "chapter": "Chapter 3: In the second place, quite apart from the fact that this hypothesis as",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.016999999999999998,
+            "positive": 0.07928571428571429,
+            "neutral": 0.865,
+            "negative": 0.055714285714285716,
+            "sentence_count": 7,
+            "compound_std": 0.5735927549851275,
+            "sentiment_range": [
+              -0.9037,
+              0.5994
+            ],
+            "chapter": "Chapter 4: The guide-post which first put me on the right track was this",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.12960625,
+            "positive": 0.048875,
+            "neutral": 0.9308125,
+            "negative": 0.020312499999999997,
+            "sentence_count": 16,
+            "compound_std": 0.36680658641297254,
+            "sentiment_range": [
+              -0.5719,
+              0.8519
+            ],
+            "chapter": "Chapter 5: With regard to our problem, which can justly be called an intimate",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.05757777777777779,
+            "positive": 0.07755555555555556,
+            "neutral": 0.8653333333333334,
+            "negative": 0.05711111111111111,
+            "sentence_count": 9,
+            "compound_std": 0.5746888255158956,
+            "sentiment_range": [
+              -0.6848,
+              0.8721
+            ],
+            "chapter": "Chapter 6: Above all, there is no exception (though there are opportunities for",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.18147857142857143,
+            "positive": 0.08121428571428571,
+            "neutral": 0.7272142857142858,
+            "negative": 0.19157142857142856,
+            "sentence_count": 14,
+            "compound_std": 0.6286229771476375,
+            "sentiment_range": [
+              -0.9535,
+              0.9231
+            ],
+            "chapter": "Chapter 7: The reader will have already surmised with what ease the priestly mode",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.14926363636363638,
+            "positive": 0.145,
+            "neutral": 0.6969090909090908,
+            "negative": 0.158,
+            "sentence_count": 11,
+            "compound_std": 0.5130812380700586,
+            "sentiment_range": [
+              -0.9045,
+              0.7351
+            ],
+            "chapter": "Chapter 8: But you understand this not? You have no eyes for a force which",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.08987777777777778,
+            "positive": 0.08205555555555555,
+            "neutral": 0.8762222222222221,
+            "negative": 0.04172222222222223,
+            "sentence_count": 18,
+            "compound_std": 0.272077575856502,
+            "sentiment_range": [
+              -0.7357,
+              0.5411
+            ],
+            "chapter": "Chapter 9: \"But why do you talk of nobler ideals? Let us submit to the facts;",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.051273684210526305,
+            "positive": 0.10813157894736843,
+            "neutral": 0.7721052631578947,
+            "negative": 0.11968421052631577,
+            "sentence_count": 38,
+            "compound_std": 0.698556218467856,
+            "sentiment_range": [
+              -0.9779,
+              0.979
+            ],
+            "chapter": "Chapter 10: The revolt of the slaves in morals begins in the very principle of",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.09670000000000001,
+            "positive": 0.15981818181818183,
+            "neutral": 0.616909090909091,
+            "negative": 0.22327272727272732,
+            "sentence_count": 11,
+            "compound_std": 0.5687153258161607,
+            "sentiment_range": [
+              -0.7611,
+              0.9465
+            ],
+            "chapter": "Chapter 12: I cannot refrain at this juncture from uttering a sigh and one last",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.06565882352941176,
+            "positive": 0.11864705882352941,
+            "neutral": 0.7541764705882352,
+            "negative": 0.12711764705882353,
+            "sentence_count": 17,
+            "compound_std": 0.5481506137580453,
+            "sentiment_range": [
+              -0.97,
+              0.9531
+            ],
+            "chapter": "Chapter 13: But let us come back to it; the problem of another origin of the",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.012799999999999997,
+            "positive": 0.07675,
+            "neutral": 0.8088958333333333,
+            "negative": 0.114375,
+            "sentence_count": 48,
+            "compound_std": 0.4053475992897947,
+            "sentiment_range": [
+              -0.8885,
+              0.9679
+            ],
+            "chapter": "Chapter 14: Will any one look a little into--right into--the mystery of how _ideals",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.1648103448275862,
+            "positive": 0.09524137931034483,
+            "neutral": 0.8882758620689655,
+            "negative": 0.016551724137931035,
+            "sentence_count": 29,
+            "compound_std": 0.3718434230590813,
+            "sentiment_range": [
+              -0.6361,
+              0.9697
+            ],
+            "chapter": "Chapter 15: In the faith in what? In the love for what? In the hope of what? These",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.12243749999999999,
+            "positive": 0.10868749999999999,
+            "neutral": 0.7858125,
+            "negative": 0.10568749999999999,
+            "sentence_count": 16,
+            "compound_std": 0.5769525488233412,
+            "sentiment_range": [
+              -0.905,
+              0.9052
+            ],
+            "chapter": "Chapter 16: Let us come to a conclusion. The two _opposing values_, \"good and bad,\"",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.22288999999999995,
+            "positive": 0.1011,
+            "neutral": 0.8173999999999999,
+            "negative": 0.08154999999999998,
+            "sentence_count": 20,
+            "compound_std": 0.457530924528605,
+            "sentiment_range": [
+              -0.3855,
+              0.9552
+            ],
+            "chapter": "Chapter 17: Was it therewith over? Was that greatest of all antitheses of ideals",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.21486666666666665,
+            "positive": 0.069,
+            "neutral": 0.8315555555555556,
+            "negative": 0.09944444444444443,
+            "sentence_count": 9,
+            "compound_std": 0.5422982369303608,
+            "sentiment_range": [
+              -0.6486,
+              0.9109
+            ],
+            "chapter": "Chapter 1: The breeding of an animal that _can promise_--is not this just that",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.3761111111111111,
+            "positive": 0.10277777777777779,
+            "neutral": 0.8223333333333334,
+            "negative": 0.07466666666666666,
+            "sentence_count": 9,
+            "compound_std": 0.5307509866938951,
+            "sentiment_range": [
+              -0.7227,
+              0.9721
+            ],
+            "chapter": "Chapter 2: This is simply the long history of the origin of _responsibility_.",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.030347368421052633,
+            "positive": 0.08931578947368421,
+            "neutral": 0.7859473684210526,
+            "negative": 0.12463157894736841,
+            "sentence_count": 19,
+            "compound_std": 0.5146605599487482,
+            "sentiment_range": [
+              -0.9065,
+              0.8858
+            ],
+            "chapter": "Chapter 3: His conscience?--One apprehends at once that the idea \"conscience,\"",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.18258181818181818,
+            "positive": 0.06327272727272727,
+            "neutral": 0.8210909090909091,
+            "negative": 0.11563636363636363,
+            "sentence_count": 11,
+            "compound_std": 0.4714129608627891,
+            "sentiment_range": [
+              -0.988,
+              0.6786
+            ],
+            "chapter": "Chapter 4: But how is it that that other melancholy object, the consciousness of",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.010999999999999985,
+            "positive": 0.09566666666666666,
+            "neutral": 0.7633333333333333,
+            "negative": 0.14122222222222225,
+            "sentence_count": 9,
+            "compound_std": 0.64491841861329,
+            "sentiment_range": [
+              -0.9099,
+              0.9209
+            ],
+            "chapter": "Chapter 5: The realisation of these contractual relations excites, of course (as",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.07059999999999998,
+            "positive": 0.12553846153846157,
+            "neutral": 0.7787692307692308,
+            "negative": 0.09569230769230769,
+            "sentence_count": 13,
+            "compound_std": 0.6148595024005954,
+            "sentiment_range": [
+              -0.7964,
+              0.9538
+            ],
+            "chapter": "Chapter 6: It is then in _this_ sphere of the law of contract that we find the",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.20066666666666666,
+            "positive": 0.10525,
+            "neutral": 0.7482916666666668,
+            "negative": 0.14641666666666667,
+            "sentence_count": 24,
+            "compound_std": 0.6464232847411636,
+            "sentiment_range": [
+              -0.9768,
+              0.8582
+            ],
+            "chapter": "Chapter 7: Entertaining, as I do, these thoughts, I am, let me say in parenthesis,",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.20621428571428568,
+            "positive": 0.08285714285714285,
+            "neutral": 0.8715714285714286,
+            "negative": 0.045571428571428575,
+            "sentence_count": 7,
+            "compound_std": 0.5647640706615499,
+            "sentiment_range": [
+              -0.7184,
+              0.8442
+            ],
+            "chapter": "Chapter 8: The feeling of \"ought,\" of personal obligation (to take up again",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.11289090909090907,
+            "positive": 0.1290909090909091,
+            "neutral": 0.7560909090909091,
+            "negative": 0.11463636363636365,
+            "sentence_count": 11,
+            "compound_std": 0.5637462782857123,
+            "sentiment_range": [
+              -0.7964,
+              0.9493
+            ],
+            "chapter": "Chapter 9: Measured always by the standard of antiquity (this antiquity, moreover,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.33365999999999996,
+            "positive": 0.18839999999999998,
+            "neutral": 0.7636999999999999,
+            "negative": 0.047900000000000005,
+            "sentence_count": 10,
+            "compound_std": 0.5812371722455473,
+            "sentiment_range": [
+              -0.7134,
+              0.9258
+            ],
+            "chapter": "Chapter 10: As it grows more powerful, the community tends to take the offences of",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.064052,
+            "positive": 0.09523999999999999,
+            "neutral": 0.8066,
+            "negative": 0.09815999999999998,
+            "sentence_count": 25,
+            "compound_std": 0.6136886520834486,
+            "sentiment_range": [
+              -0.9588,
+              0.9721
+            ],
+            "chapter": "Chapter 11: A deprecatory word here against the attempts, that have lately been",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.09013684210526315,
+            "positive": 0.060263157894736845,
+            "neutral": 0.8604736842105263,
+            "negative": 0.07931578947368421,
+            "sentence_count": 19,
+            "compound_std": 0.6134727190867675,
+            "sentiment_range": [
+              -0.836,
+              0.9549
+            ],
+            "chapter": "Chapter 12: A word more on the origin and end of punishment--two problems which",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.33461250000000003,
+            "positive": 0.0635,
+            "neutral": 0.82575,
+            "negative": 0.110875,
+            "sentence_count": 8,
+            "compound_std": 0.5637154877185387,
+            "sentiment_range": [
+              -0.9751,
+              0.5859
+            ],
+            "chapter": "Chapter 13: To return to our subject, namely _punishment_, we must make",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.5923416666666667,
+            "positive": 0.065,
+            "neutral": 0.7350833333333333,
+            "negative": 0.19991666666666666,
+            "sentence_count": 12,
+            "compound_std": 0.4866788099940475,
+            "sentiment_range": [
+              -0.9423,
+              0.7906
+            ],
+            "chapter": "Chapter 14: This list is certainly not complete; it is obvious that punishment",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.18257692307692308,
+            "positive": 0.03553846153846153,
+            "neutral": 0.8937692307692308,
+            "negative": 0.0706923076923077,
+            "sentence_count": 13,
+            "compound_std": 0.40787668037108044,
+            "sentiment_range": [
+              -0.886,
+              0.7943
+            ],
+            "chapter": "Chapter 15: This truth came insidiously enough to the consciousness of Spinoza (to",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.18529374999999998,
+            "positive": 0.1015625,
+            "neutral": 0.763125,
+            "negative": 0.1355,
+            "sentence_count": 16,
+            "compound_std": 0.6462910678138276,
+            "sentiment_range": [
+              -0.9789,
+              0.9429
+            ],
+            "chapter": "Chapter 16: At this juncture I cannot avoid trying to give a tentative and",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.13797272727272727,
+            "positive": 0.08981818181818181,
+            "neutral": 0.8147272727272727,
+            "negative": 0.09554545454545454,
+            "sentence_count": 11,
+            "compound_std": 0.41995535280206564,
+            "sentiment_range": [
+              -0.7783,
+              0.5574
+            ],
+            "chapter": "Chapter 17: It is primarily involved in this hypothesis of the origin of the bad",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.04792000000000003,
+            "positive": 0.1072,
+            "neutral": 0.5892,
+            "negative": 0.3036,
+            "sentence_count": 5,
+            "compound_std": 0.6629061574612202,
+            "sentiment_range": [
+              -0.765,
+              0.8983
+            ],
+            "chapter": "Chapter 18: Beware of thinking lightly of this phenomenon, by reason of its initial",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.07408947368421051,
+            "positive": 0.07900000000000001,
+            "neutral": 0.8270000000000001,
+            "negative": 0.09415789473684211,
+            "sentence_count": 19,
+            "compound_std": 0.43819678695732467,
+            "sentiment_range": [
+              -0.8442,
+              0.6124
+            ],
+            "chapter": "Chapter 19: Undoubtedly the bad conscience is an illness, but an illness like",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.24146249999999997,
+            "positive": 0.11412499999999999,
+            "neutral": 0.838375,
+            "negative": 0.0475,
+            "sentence_count": 8,
+            "compound_std": 0.326289836408905,
+            "sentiment_range": [
+              -0.296,
+              0.6808
+            ],
+            "chapter": "Chapter 20: According to the teaching of history, the consciousness of owing",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.22205,
+            "positive": 0.09699999999999999,
+            "neutral": 0.8075000000000001,
+            "negative": 0.09550000000000002,
+            "sentence_count": 6,
+            "compound_std": 0.5830482705860067,
+            "sentiment_range": [
+              -0.9741,
+              0.6696
+            ],
+            "chapter": "Chapter 21: So much for my rough and preliminary sketch of the interrelation of",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.42929000000000006,
+            "positive": 0.044700000000000004,
+            "neutral": 0.7464000000000001,
+            "negative": 0.20879999999999996,
+            "sentence_count": 10,
+            "compound_std": 0.434869694161366,
+            "sentiment_range": [
+              -0.9807,
+              0.25
+            ],
+            "chapter": "Chapter 22: The reader will already have conjectured what took place on the stage",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.09416,
+            "positive": 0.10169999999999998,
+            "neutral": 0.7763000000000001,
+            "negative": 0.12209999999999999,
+            "sentence_count": 10,
+            "compound_std": 0.6896939991039505,
+            "sentiment_range": [
+              -0.8422,
+              0.9022
+            ],
+            "chapter": "Chapter 23: Let this suffice once for all concerning the origin of the \"holy God.\"",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.06900666666666667,
+            "positive": 0.09359999999999999,
+            "neutral": 0.8350000000000002,
+            "negative": 0.07146666666666666,
+            "sentence_count": 15,
+            "compound_std": 0.592575215441513,
+            "sentiment_range": [
+              -0.7506,
+              0.9754
+            ],
+            "chapter": "Chapter 24: I conclude with three queries, as you will see. \"Is an ideal actually",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.021890000000000003,
+            "positive": 0.0716,
+            "neutral": 0.8705999999999999,
+            "negative": 0.057800000000000004,
+            "sentence_count": 10,
+            "compound_std": 0.2739632948042493,
+            "sentiment_range": [
+              -0.5574,
+              0.6249
+            ],
+            "chapter": "Chapter 25: But what am I talking of? Enough! Enough? At this juncture I have",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.4358333333333333,
+            "positive": 0.11433333333333333,
+            "neutral": 0.8213333333333334,
+            "negative": 0.064,
+            "sentence_count": 3,
+            "compound_std": 0.3963505042537756,
+            "sentiment_range": [
+              0.0,
+              0.959
+            ],
+            "chapter": "Chapter 1: What is the meaning of ascetic ideals? In artists, nothing, or too",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.23281999999999997,
+            "positive": 0.1236,
+            "neutral": 0.8218,
+            "negative": 0.05445,
+            "sentence_count": 20,
+            "compound_std": 0.4292771687383339,
+            "sentiment_range": [
+              -0.7783,
+              0.9601
+            ],
+            "chapter": "Chapter 2: What is the meaning of ascetic ideals? Or, to take an individual",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.0936277777777778,
+            "positive": 0.11394444444444446,
+            "neutral": 0.8157222222222222,
+            "negative": 0.07033333333333333,
+            "sentence_count": 18,
+            "compound_std": 0.5615300257189731,
+            "sentiment_range": [
+              -0.8481,
+              0.9509
+            ],
+            "chapter": "Chapter 3: At this point it is impossible to beg the further question of what he",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.17696363636363638,
+            "positive": 0.1433636363636364,
+            "neutral": 0.7906363636363636,
+            "negative": 0.066,
+            "sentence_count": 11,
+            "compound_std": 0.39734006107140946,
+            "sentiment_range": [
+              -0.7182,
+              0.7096
+            ],
+            "chapter": "Chapter 4: Let me speak out my mind in a case like this, which has many painful",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.31746,
+            "positive": 0.09286666666666665,
+            "neutral": 0.8798666666666667,
+            "negative": 0.027266666666666665,
+            "sentence_count": 15,
+            "compound_std": 0.3666155348590673,
+            "sentiment_range": [
+              -0.25,
+              0.9011
+            ],
+            "chapter": "Chapter 5: What, then, is the meaning of ascetic ideals? In the case of an artist",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.4163333333333333,
+            "positive": 0.17846666666666663,
+            "neutral": 0.7500333333333333,
+            "negative": 0.07146666666666666,
+            "sentence_count": 30,
+            "compound_std": 0.5036444177746394,
+            "sentiment_range": [
+              -0.7717,
+              0.9903
+            ],
+            "chapter": "Chapter 6: Schopenhauer has made use of the Kantian treatment of the æsthetic",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.21165499999999998,
+            "positive": 0.1316,
+            "neutral": 0.8135,
+            "negative": 0.054849999999999996,
+            "sentence_count": 20,
+            "compound_std": 0.5703956332888603,
+            "sentiment_range": [
+              -0.9377,
+              0.9471
+            ],
+            "chapter": "Chapter 7: Let us beware of making dismal faces at the word \"torture\"--there is",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.340455,
+            "positive": 0.12995,
+            "neutral": 0.8223249999999999,
+            "negative": 0.047775,
+            "sentence_count": 40,
+            "compound_std": 0.5093917117258584,
+            "sentiment_range": [
+              -0.91,
+              0.9813
+            ],
+            "chapter": "Chapter 8: These philosophers, you see, are by no means uncorrupted witnesses and",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.24331818181818177,
+            "positive": 0.12318181818181816,
+            "neutral": 0.8025909090909091,
+            "negative": 0.07404545454545455,
+            "sentence_count": 22,
+            "compound_std": 0.473628821524316,
+            "sentiment_range": [
+              -0.6486,
+              0.9412
+            ],
+            "chapter": "Chapter 9: A certain asceticism, a grimly gay whole-hearted renunciation, is, as",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.0968,
+            "positive": 0.286,
+            "neutral": 0.563,
+            "negative": 0.151,
+            "sentence_count": 2,
+            "compound_std": 0.8618,
+            "sentiment_range": [
+              -0.9586,
+              0.765
+            ],
+            "chapter": "Chapter 18: \"Nothing is purchased more dearly,\" says the same book a little",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.01875625000000001,
+            "positive": 0.0856875,
+            "neutral": 0.821375,
+            "negative": 0.0929375,
+            "sentence_count": 16,
+            "compound_std": 0.5585335285020385,
+            "sentiment_range": [
+              -0.9153,
+              0.9062
+            ],
+            "chapter": "Chapter 10: There is in the same book, Aph. 12, an explanation of the _burden_",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.01833478260869565,
+            "positive": 0.08630434782608697,
+            "neutral": 0.8188260869565218,
+            "negative": 0.09482608695652174,
+            "sentence_count": 23,
+            "compound_std": 0.45784396963299684,
+            "sentiment_range": [
+              -0.7096,
+              0.9162
+            ],
+            "chapter": "Chapter 11: And now, after we have caught sight of the _ascetic priest_, let us",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.33286363636363636,
+            "positive": 0.1529090909090909,
+            "neutral": 0.7995454545454546,
+            "negative": 0.04727272727272727,
+            "sentence_count": 11,
+            "compound_std": 0.4215309031542641,
+            "sentiment_range": [
+              -0.5941,
+              0.9571
+            ],
+            "chapter": "Chapter 12: Granted that such an incarnate will for contradiction and unnaturalness",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.2442181818181819,
+            "positive": 0.07854545454545456,
+            "neutral": 0.7826363636363637,
+            "negative": 0.13872727272727273,
+            "sentence_count": 11,
+            "compound_std": 0.584257780619887,
+            "sentiment_range": [
+              -0.862,
+              0.8834
+            ],
+            "chapter": "Chapter 13: But let us turn back. Such a self-contradiction, as apparently",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.10055925925925925,
+            "positive": 0.12935185185185186,
+            "neutral": 0.7309259259259259,
+            "negative": 0.13975925925925925,
+            "sentence_count": 54,
+            "compound_std": 0.562391999349906,
+            "sentiment_range": [
+              -0.9575,
+              0.9109
+            ],
+            "chapter": "Chapter 14: The more normal is this sickliness in man--and we cannot dispute",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.15919166666666668,
+            "positive": 0.123625,
+            "neutral": 0.7492916666666667,
+            "negative": 0.127,
+            "sentence_count": 24,
+            "compound_std": 0.6293951361669039,
+            "sentiment_range": [
+              -0.9442,
+              0.8271
+            ],
+            "chapter": "Chapter 15: If you have understood in all their depths--and I demand that you",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.025414285714285705,
+            "positive": 0.08771428571428573,
+            "neutral": 0.8251428571428573,
+            "negative": 0.08714285714285716,
+            "sentence_count": 14,
+            "compound_std": 0.613390772506335,
+            "sentiment_range": [
+              -0.9446,
+              0.9297
+            ],
+            "chapter": "Chapter 16: You can see now what the remedial instinct of life has at least _tried_",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.04991935483870967,
+            "positive": 0.13574193548387098,
+            "neutral": 0.751290322580645,
+            "negative": 0.11303225806451613,
+            "sentence_count": 31,
+            "compound_std": 0.6793163291937425,
+            "sentiment_range": [
+              -0.9779,
+              0.9712
+            ],
+            "chapter": "Chapter 17: But is he really a _physician_, this ascetic priest? We already",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.05655499999999998,
+            "positive": 0.12189999999999998,
+            "neutral": 0.7775,
+            "negative": 0.1005,
+            "sentence_count": 20,
+            "compound_std": 0.49260259588739486,
+            "sentiment_range": [
+              -0.807,
+              0.9823
+            ],
+            "chapter": "Chapter 18: Such a hypnotic deadening of sensibility and susceptibility to pain,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.34168260869565215,
+            "positive": 0.1523478260869565,
+            "neutral": 0.7814782608695652,
+            "negative": 0.06613043478260869,
+            "sentence_count": 23,
+            "compound_std": 0.5088631358252339,
+            "sentiment_range": [
+              -0.8877,
+              0.9069
+            ],
+            "chapter": "Chapter 19: The methods employed by the ascetic priest, which we have already",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.26157500000000006,
+            "positive": 0.06435714285714286,
+            "neutral": 0.8224642857142855,
+            "negative": 0.11314285714285714,
+            "sentence_count": 28,
+            "compound_std": 0.44077077993717845,
+            "sentiment_range": [
+              -0.9866,
+              0.6743
+            ],
+            "chapter": "Chapter 20: But you will soon understand me.--Putting it shortly, there is reason",
+            "classification": "negative"
+          },
+          {
+            "compound": -0.25530625,
+            "positive": 0.0583125,
+            "neutral": 0.8478749999999999,
+            "negative": 0.09387500000000001,
+            "sentence_count": 16,
+            "compound_std": 0.39985286742242765,
+            "sentiment_range": [
+              -0.9289,
+              0.4019
+            ],
+            "chapter": "Chapter 21: So far as all _this_ kind of priestly medicine-mongering, the \"guilty\"",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.14914666666666668,
+            "positive": 0.1373666666666667,
+            "neutral": 0.7956666666666666,
+            "negative": 0.06696666666666666,
+            "sentence_count": 30,
+            "compound_std": 0.41432093658043506,
+            "sentiment_range": [
+              -0.8399,
+              0.9001
+            ],
+            "chapter": "Chapter 22: The ascetic priest has, wherever he has obtained the mastery, corrupted",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.21370769230769227,
+            "positive": 0.10861538461538461,
+            "neutral": 0.8231923076923078,
+            "negative": 0.06815384615384615,
+            "sentence_count": 26,
+            "compound_std": 0.49350938415446644,
+            "sentiment_range": [
+              -0.8555,
+              0.9596
+            ],
+            "chapter": "Chapter 23: The ascetic ideal has corrupted not only health and taste, there are",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.406075,
+            "positive": 0.1582142857142857,
+            "neutral": 0.7859999999999999,
+            "negative": 0.05564285714285714,
+            "sentence_count": 28,
+            "compound_std": 0.4969130648492321,
+            "sentiment_range": [
+              -0.5423,
+              0.9864
+            ],
+            "chapter": "Chapter 24: And now look at the other side, at those rare cases, of which I spoke,",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.25476470588235295,
+            "positive": 0.14876470588235294,
+            "neutral": 0.750235294117647,
+            "negative": 0.101,
+            "sentence_count": 34,
+            "compound_std": 0.4896350098511873,
+            "sentiment_range": [
+              -0.8179,
+              0.9246
+            ],
+            "chapter": "Chapter 25: No! You can't get round me with science, when I search for the natural",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.17762307692307694,
+            "positive": 0.1764615384615385,
+            "neutral": 0.7472307692307693,
+            "negative": 0.07638461538461538,
+            "sentence_count": 26,
+            "compound_std": 0.484399326928717,
+            "sentiment_range": [
+              -0.7424,
+              0.9946
+            ],
+            "chapter": "Chapter 26: Or, perchance, does the whole of modern history show in its demeanour",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.3731928571428572,
+            "positive": 0.14871428571428572,
+            "neutral": 0.7756428571428572,
+            "negative": 0.07571428571428573,
+            "sentence_count": 14,
+            "compound_std": 0.5428017139465067,
+            "sentiment_range": [
+              -0.6705,
+              0.9287
+            ],
+            "chapter": "Chapter 27: Enough! enough! let us leave these curiosities and complexities of",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.028803999999999986,
+            "positive": 0.09376000000000001,
+            "neutral": 0.80864,
+            "negative": 0.09760000000000002,
+            "sentence_count": 25,
+            "compound_std": 0.46332723337183623,
+            "sentiment_range": [
+              -0.9162,
+              0.8649
+            ],
+            "chapter": "Chapter 28: If you except the ascetic ideal, man, the animal man had no meaning.",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter 1: The Europeans now imagine themselves as representing, in the main, the",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.19392857142857142,
+            "positive": 0.125,
+            "neutral": 0.8524285714285714,
+            "negative": 0.022571428571428572,
+            "sentence_count": 7,
+            "compound_std": 0.3964985595876762,
+            "sentiment_range": [
+              -0.4588,
+              0.7351
+            ],
+            "chapter": "Chapter 2: A characteristic of Europeans: inconsistency between word and deed;",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.405075,
+            "positive": 0.169125,
+            "neutral": 0.7673749999999999,
+            "negative": 0.0635,
+            "sentence_count": 8,
+            "compound_std": 0.4332922591911838,
+            "sentiment_range": [
+              -0.3612,
+              0.8834
+            ],
+            "chapter": "Chapter 3: I rate Michael Angelo higher than Raphael, because, through all the",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.004563636363636382,
+            "positive": 0.22518181818181812,
+            "neutral": 0.5574545454545454,
+            "negative": 0.21736363636363637,
+            "sentence_count": 11,
+            "compound_std": 0.3880886948125677,
+            "sentiment_range": [
+              -0.7579,
+              0.4926
+            ],
+            "chapter": "Chapter 4: How much we have learnt and learnt anew in fifty years! The whole",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.41000000000000003,
+            "positive": 0.18542857142857144,
+            "neutral": 0.7928571428571428,
+            "negative": 0.021714285714285714,
+            "sentence_count": 7,
+            "compound_std": 0.27348379424434954,
+            "sentiment_range": [
+              0.0,
+              0.7096
+            ],
+            "chapter": "Chapter 5: What I observe with pleasure in the German is his Mephistophelian",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.046479999999999994,
+            "positive": 0.0312,
+            "neutral": 0.932,
+            "negative": 0.0368,
+            "sentence_count": 5,
+            "compound_std": 0.18944756952782474,
+            "sentiment_range": [
+              -0.4019,
+              0.1695
+            ],
+            "chapter": "Chapter 6: Perhaps the Germans have only grown up in a wrong climate! There is",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.2457,
+            "positive": 0.08049999999999999,
+            "neutral": 0.9195,
+            "negative": 0.0,
+            "sentence_count": 4,
+            "compound_std": 0.2901277477250323,
+            "sentiment_range": [
+              0.0,
+              0.7096
+            ],
+            "chapter": "Chapter 7: The Germans are a dangerous people: they are experts at inventing",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.3345833333333333,
+            "positive": 0.09449999999999999,
+            "neutral": 0.879,
+            "negative": 0.0265,
+            "sentence_count": 6,
+            "compound_std": 0.3328436991375315,
+            "sentiment_range": [
+              0.0,
+              0.7854
+            ],
+            "chapter": "Chapter 8: The smallness and baseness of the German soul were not and are not",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.2607625,
+            "positive": 0.1405,
+            "neutral": 0.825,
+            "negative": 0.0345,
+            "sentence_count": 8,
+            "compound_std": 0.4239875556472737,
+            "sentiment_range": [
+              -0.4398,
+              0.7351
+            ],
+            "chapter": "Chapter 9: Most artists, even some of the greatest (including the historians) have",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.21436666666666668,
+            "positive": 0.08033333333333333,
+            "neutral": 0.8729999999999999,
+            "negative": 0.04666666666666667,
+            "sentence_count": 3,
+            "compound_std": 0.3555283611128029,
+            "sentiment_range": [
+              -0.2755,
+              0.5574
+            ],
+            "chapter": "Chapter 10: We could at any time have counted on the fingers of one hand those",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.4999,
+            "positive": 0.2615,
+            "neutral": 0.7384999999999999,
+            "negative": 0.0,
+            "sentence_count": 2,
+            "compound_std": 0.3972,
+            "sentiment_range": [
+              0.1027,
+              0.8971
+            ],
+            "chapter": "Chapter 11: As Frenchmen reflect the politeness and _esprit_ of French society,",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.251375,
+            "positive": 0.09525,
+            "neutral": 0.69775,
+            "negative": 0.20725,
+            "sentence_count": 4,
+            "compound_std": 0.48664600776642564,
+            "sentiment_range": [
+              -0.7579,
+              0.5423
+            ],
+            "chapter": "Chapter 12: A larger number of the higher and better-endowed men will, I hope, have",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.30538750000000003,
+            "positive": 0.12375,
+            "neutral": 0.87625,
+            "negative": 0.0,
+            "sentence_count": 8,
+            "compound_std": 0.26249064477377093,
+            "sentiment_range": [
+              0.0,
+              0.6369
+            ],
+            "chapter": "Chapter 13: The peasant is the commonest type of noblesse, for he is dependent upon",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter 14: The future of German culture rests with the sons of the Prussian",
+            "classification": "neutral"
+          },
+          {
+            "compound": 0.5379,
+            "positive": 0.2,
+            "neutral": 0.77,
+            "negative": 0.03,
+            "sentence_count": 2,
+            "compound_std": 0.043999999999999984,
+            "sentiment_range": [
+              0.4939,
+              0.5819
+            ],
+            "chapter": "Chapter 15: There has always been a want of wit in Germany, and mediocre heads",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.36855000000000004,
+            "positive": 0.1375,
+            "neutral": 0.83725,
+            "negative": 0.025,
+            "sentence_count": 4,
+            "compound_std": 0.2291200394989491,
+            "sentiment_range": [
+              0.0,
+              0.6249
+            ],
+            "chapter": "Chapter 16: Parliaments may be very useful to a strong and versatile statesman:",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.08807333333333336,
+            "positive": 0.11239999999999999,
+            "neutral": 0.7907333333333334,
+            "negative": 0.09686666666666666,
+            "sentence_count": 15,
+            "compound_std": 0.39399525964435445,
+            "sentiment_range": [
+              -0.4914,
+              0.765
+            ],
+            "chapter": "Chapter 17: Can any one interest himself in this German Empire? Where is the new",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.15847142857142857,
+            "positive": 0.12250000000000003,
+            "neutral": 0.8079999999999999,
+            "negative": 0.06949999999999999,
+            "sentence_count": 14,
+            "compound_std": 0.43683688918760283,
+            "sentiment_range": [
+              -0.7906,
+              0.743
+            ],
+            "chapter": "Chapter 18: I see over and beyond all these national wars, new \"empires,\" and",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.2364,
+            "positive": 0.06025,
+            "neutral": 0.8325,
+            "negative": 0.10725,
+            "sentence_count": 4,
+            "compound_std": 0.2937108867577094,
+            "sentiment_range": [
+              -0.7193,
+              0.0
+            ],
+            "chapter": "Chapter 19: The condition of Europe in the next century will once again lead to the",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentence_count": 2,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              0.0,
+              0.0
+            ],
+            "chapter": "Chapter 20: What quagmires and mendacity must there be about if it is possible,",
+            "classification": "neutral"
+          },
+          {
+            "compound": -0.5267,
+            "positive": 0.0,
+            "neutral": 0.227,
+            "negative": 0.773,
+            "sentence_count": 1,
+            "compound_std": 0.0,
+            "sentiment_range": [
+              -0.5267,
+              -0.5267
+            ],
+            "chapter": "Chapter 21: Maxim: To associate with no man who takes any part in the mendacious",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.148,
+            "positive": 0.098,
+            "neutral": 0.902,
+            "negative": 0.0,
+            "sentence_count": 2,
+            "compound_std": 0.148,
+            "sentiment_range": [
+              0.0,
+              0.296
+            ],
+            "chapter": "Chapter 22: With the freedom of travel now existing, groups of men of the same",
+            "classification": "positive"
+          },
+          {
+            "compound": -0.08038,
+            "positive": 0.0,
+            "neutral": 0.9712,
+            "negative": 0.0288,
+            "sentence_count": 5,
+            "compound_std": 0.16076,
+            "sentiment_range": [
+              -0.4019,
+              0.0
+            ],
+            "chapter": "Chapter 23: To make Europe a centre of culture, national stupidities should not",
+            "classification": "negative"
+          },
+          {
+            "compound": 0.11534999999999998,
+            "positive": 0.181,
+            "neutral": 0.7415,
+            "negative": 0.0775,
+            "sentence_count": 2,
+            "compound_std": 0.41135,
+            "sentiment_range": [
+              -0.296,
+              0.5267
+            ],
+            "chapter": "Chapter 24: Mankind has still much before it--how, generally speaking, could",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.478425,
+            "positive": 0.1525,
+            "neutral": 0.7635000000000001,
+            "negative": 0.08374999999999999,
+            "sentence_count": 4,
+            "compound_std": 0.6088481024648101,
+            "sentiment_range": [
+              -0.5574,
+              0.967
+            ],
+            "chapter": "Chapter 25: This is our distrust, which recurs again and again; our care, which",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.5199333333333334,
+            "positive": 0.123,
+            "neutral": 0.8770000000000001,
+            "negative": 0.0,
+            "sentence_count": 3,
+            "compound_std": 0.38882129857072156,
+            "sentiment_range": [
+              0.0,
+              0.9349
+            ],
+            "chapter": "Chapter 26: Genius and Epoch.--Heroism is no form of selfishness, for one is",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.16774,
+            "positive": 0.21139999999999998,
+            "neutral": 0.6862,
+            "negative": 0.1022,
+            "sentence_count": 5,
+            "compound_std": 0.6101069073531294,
+            "sentiment_range": [
+              -0.5423,
+              0.9456
+            ],
+            "chapter": "Chapter 27: The fate now overhanging Europe is simply this: that it is exactly",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.09044615384615386,
+          0.2691375,
+          -0.025033333333333335,
+          0.07458124999999999,
+          -0.1841142857142857,
+          -0.08990909090909092,
+          0.15764615384615382,
+          0.15453,
+          -0.08561111111111114,
+          0.30618750000000006,
+          0.12356249999999999,
+          0.016999999999999998,
+          0.12960625,
+          0.05757777777777779,
+          -0.18147857142857143,
+          -0.14926363636363638,
+          0.08987777777777778,
+          0.051273684210526305,
+          -0.09670000000000001,
+          -0.06565882352941176,
+          -0.012799999999999997,
+          0.1648103448275862,
+          0.12243749999999999,
+          0.22288999999999995,
+          0.21486666666666665,
+          0.3761111111111111,
+          -0.030347368421052633,
+          -0.18258181818181818,
+          0.010999999999999985,
+          0.07059999999999998,
+          -0.20066666666666666,
+          0.20621428571428568,
+          0.11289090909090907,
+          0.33365999999999996,
+          -0.064052,
+          0.09013684210526315,
+          -0.33461250000000003,
+          -0.5923416666666667,
+          -0.18257692307692308,
+          -0.18529374999999998,
+          -0.13797272727272727,
+          -0.04792000000000003,
+          -0.07408947368421051,
+          0.24146249999999997,
+          -0.22205,
+          -0.42929000000000006,
+          -0.09416,
+          0.06900666666666667,
+          0.021890000000000003,
+          0.4358333333333333,
+          0.23281999999999997,
+          0.0936277777777778,
+          0.17696363636363638,
+          0.31746,
+          0.4163333333333333,
+          0.21165499999999998,
+          0.340455,
+          0.24331818181818177,
+          -0.0968,
+          -0.01875625000000001,
+          0.01833478260869565,
+          0.33286363636363636,
+          -0.2442181818181819,
+          -0.10055925925925925,
+          -0.15919166666666668,
+          -0.025414285714285705,
+          0.04991935483870967,
+          0.05655499999999998,
+          0.34168260869565215,
+          -0.26157500000000006,
+          -0.25530625,
+          0.14914666666666668,
+          0.21370769230769227,
+          0.406075,
+          0.25476470588235295,
+          0.17762307692307694,
+          0.3731928571428572,
+          -0.028803999999999986,
+          0.0,
+          0.19392857142857142,
+          0.405075,
+          -0.004563636363636382,
+          0.41000000000000003,
+          -0.046479999999999994,
+          0.2457,
+          0.3345833333333333,
+          0.2607625,
+          0.21436666666666668,
+          0.4999,
+          -0.251375,
+          0.30538750000000003,
+          0.0,
+          0.5379,
+          0.36855000000000004,
+          0.08807333333333336,
+          0.15847142857142857,
+          -0.2364,
+          0.0,
+          -0.5267,
+          0.148,
+          -0.08038,
+          0.11534999999999998,
+          0.478425,
+          0.5199333333333334,
+          0.16774
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.1248984865263935,
+          "unique_words": 6767,
+          "total_words": 54180,
+          "hapax_legomena": 3515,
+          "avg_word_frequency": 8.00650214275159
+        },
+        "sentence_metrics": {
+          "sentence_count": 1600,
+          "avg_sentence_length": 41.621875,
+          "sentence_length_std": 37.866362334985055,
+          "min_sentence_length": 2,
+          "max_sentence_length": 305
+        },
+        "word_metrics": {
+          "avg_word_length": 4.635418973791067,
+          "word_length_std": 2.6635136086099096,
+          "min_word_length": 1,
+          "max_word_length": 17
+        },
+        "readability": {
+          "flesch_reading_ease": 41.13157246677741,
+          "flesch_kincaid_grade": 15.934688030638615,
+          "gunning_fog": 19.714066076042823,
+          "avg_syllables_per_word": 1.5523994093761535,
+          "complex_word_percentage": 15.422665190107052
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 22.829457364341085,
+          "avg_word_length": 4.635418973791067,
+          "words_over_10_chars": 3660,
+          "words_over_15_chars": 60
+        },
+        "distinctive_words": [
+          [
+            "man",
+            0.35224528352571965
+          ],
+          [
+            "ascetic",
+            0.2157990703422598
+          ],
+          [
+            "good",
+            0.17311199831392207
+          ],
+          [
+            "ideal",
+            0.17311199831392207
+          ],
+          [
+            "life",
+            0.1701013548649843
+          ],
+          [
+            "time",
+            0.16408006796710875
+          ],
+          [
+            "world",
+            0.14752152899795098
+          ],
+          [
+            "fact",
+            0.13999492037560654
+          ],
+          [
+            "self",
+            0.13999492037560654
+          ],
+          [
+            "like",
+            0.13397363347773097
+          ],
+          [
+            "power",
+            0.120425737957511
+          ],
+          [
+            "just",
+            0.11289912933516656
+          ],
+          [
+            "god",
+            0.10687784243729101
+          ],
+          [
+            "great",
+            0.10236187726388435
+          ],
+          [
+            "does",
+            0.09935123381494658
+          ],
+          [
+            "new",
+            0.09784591209047769
+          ],
+          [
+            "certain",
+            0.0963405903660088
+          ],
+          [
+            "men",
+            0.09483526864153992
+          ],
+          [
+            "point",
+            0.09182462519260214
+          ],
+          [
+            "bad",
+            0.09031930346813324
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "even",
+          "ideal",
+          "good",
+          "life",
+          "time",
+          "every",
+          "ascetic",
+          "world",
+          "fact",
+          "would",
+          "like",
+          "much",
+          "must",
+          "power",
+          "first",
+          "also",
+          "great",
+          "whole",
+          "certain",
+          "perhaps",
+          "always",
+          "still",
+          "point",
+          "something",
+          "kind",
+          "really",
+          "enough",
+          "punishment",
+          "conscience",
+          "history",
+          "case",
+          "means",
+          "without",
+          "meaning",
+          "real",
+          "suffering",
+          "nothing",
+          "present",
+          "rate",
+          "already",
+          "truth",
+          "existence",
+          "reason",
+          "long",
+          "origin",
+          "could",
+          "science",
+          "animal",
+          "evil",
+          "never",
+          "come",
+          "problem",
+          "idea",
+          "revenge",
+          "morality",
+          "little",
+          "consciousness",
+          "everything",
+          "quite",
+          "human",
+          "word",
+          "values",
+          "value",
+          "doubt",
+          "aristocratic",
+          "sick",
+          "things",
+          "nowadays",
+          "form",
+          "soul",
+          "consequently",
+          "become",
+          "german",
+          "question",
+          "though",
+          "order",
+          "make",
+          "strong",
+          "modern",
+          "sense",
+          "race",
+          "wish",
+          "priest",
+          "well",
+          "made",
+          "nature",
+          "love",
+          "pain",
+          "rather",
+          "philosophers",
+          "called",
+          "among",
+          "instinct",
+          "instance",
+          "work",
+          "whose",
+          "right",
+          "almost",
+          "found",
+          "regard"
+        ],
+        "frequencies": [
+          149,
+          115,
+          113,
+          107,
+          107,
+          107,
+          102,
+          97,
+          93,
+          89,
+          88,
+          88,
+          83,
+          78,
+          77,
+          71,
+          68,
+          66,
+          64,
+          64,
+          62,
+          62,
+          61,
+          59,
+          59,
+          58,
+          58,
+          56,
+          55,
+          55,
+          54,
+          53,
+          50,
+          48,
+          48,
+          48,
+          46,
+          46,
+          46,
+          45,
+          45,
+          45,
+          44,
+          43,
+          43,
+          43,
+          43,
+          43,
+          42,
+          42,
+          42,
+          42,
+          42,
+          42,
+          41,
+          41,
+          41,
+          41,
+          40,
+          40,
+          40,
+          38,
+          38,
+          38,
+          38,
+          38,
+          37,
+          37,
+          36,
+          36,
+          36,
+          36,
+          36,
+          35,
+          35,
+          35,
+          35,
+          35,
+          34,
+          34,
+          34,
+          34,
+          34,
+          33,
+          33,
+          33,
+          33,
+          33,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ]
+      }
+    },
+    "The Twilight of the Idols": {
+      "basic_info": {
+        "word_count": 70519,
+        "char_count": 419451,
+        "num_chapters": 4
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.08945896246309573,
+          "positive": 0.10569843947701392,
+          "neutral": 0.813269506537326,
+          "negative": 0.08102910164487558,
+          "sentence_count": 2371,
+          "compound_std": 0.4928363449039729,
+          "sentiment_range": [
+            -0.9804,
+            0.9965
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.058686206896551726,
+            "positive": 0.08558620689655173,
+            "neutral": 0.8590344827586207,
+            "negative": 0.05544827586206897,
+            "sentence_count": 29,
+            "compound_std": 0.4218073319976689,
+            "sentiment_range": [
+              -0.7845,
+              0.842
+            ],
+            "chapter": "Chapter I: p. 672), “when they had nothing better to do, laughed, sprang and",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.07300980926430518,
+            "positive": 0.10415803814713896,
+            "neutral": 0.8090504087193462,
+            "negative": 0.08678201634877383,
+            "sentence_count": 734,
+            "compound_std": 0.5373509100997014,
+            "sentiment_range": [
+              -0.9618,
+              0.9901
+            ],
+            "chapter": "Chapter III: , 29.",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.08653142857142856,
+            "positive": 0.046771428571428575,
+            "neutral": 0.9147428571428573,
+            "negative": 0.038457142857142856,
+            "sentence_count": 35,
+            "compound_std": 0.3913285530610006,
+            "sentiment_range": [
+              -0.8105,
+              0.9601
+            ],
+            "chapter": "Chapter III: , Chap, vii.).—TR.",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.12636068181818183,
+            "positive": 0.11532727272727272,
+            "neutral": 0.8130522727272729,
+            "negative": 0.07158636363636363,
+            "sentence_count": 440,
+            "compound_std": 0.44331445552430143,
+            "sentiment_range": [
+              -0.8848,
+              0.9965
+            ],
+            "chapter": "Chapter I: ETERNAL RECURRENCE",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.058686206896551726,
+          0.07300980926430518,
+          0.08653142857142856,
+          0.12636068181818183
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.10154190536500596,
+          "unique_words": 6895,
+          "total_words": 67903,
+          "hapax_legomena": 3347,
+          "avg_word_frequency": 9.848150833937636
+        },
+        "sentence_metrics": {
+          "sentence_count": 2371,
+          "avg_sentence_length": 35.04428511176719,
+          "sentence_length_std": 30.516821629857773,
+          "min_sentence_length": 1,
+          "max_sentence_length": 337
+        },
+        "word_metrics": {
+          "avg_word_length": 4.568045594450908,
+          "word_length_std": 2.6352557887871377,
+          "min_word_length": 1,
+          "max_word_length": 18
+        },
+        "readability": {
+          "flesch_reading_ease": 47.97534547038171,
+          "flesch_kincaid_grade": 13.68244887494357,
+          "gunning_fog": 17.346933366190054,
+          "avg_syllables_per_word": 1.5341737478461923,
+          "complex_word_percentage": 14.728362517120008
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 22.02259104899636,
+          "avg_word_length": 4.568045594450908,
+          "words_over_10_chars": 4118,
+          "words_over_15_chars": 78
+        },
+        "distinctive_words": [
+          [
+            "man",
+            0.328059837575164
+          ],
+          [
+            "life",
+            0.26435889824018066
+          ],
+          [
+            "god",
+            0.22401496999469125
+          ],
+          [
+            "world",
+            0.18473272407145155
+          ],
+          [
+            "things",
+            0.1815476771047024
+          ],
+          [
+            "means",
+            0.15075888975946047
+          ],
+          [
+            "christianity",
+            0.13801870189246382
+          ],
+          [
+            "does",
+            0.1316486079589655
+          ],
+          [
+            "great",
+            0.13058692563671576
+          ],
+          [
+            "people",
+            0.12634019634771687
+          ],
+          [
+            "say",
+            0.12103178473646826
+          ],
+          [
+            "christian",
+            0.11890842009196882
+          ],
+          [
+            "power",
+            0.1178467377697191
+          ],
+          [
+            "fact",
+            0.11572337312521966
+          ],
+          [
+            "order",
+            0.10829159686947161
+          ],
+          [
+            "instincts",
+            0.10443228303789709
+          ],
+          [
+            "morality",
+            0.10404486758047272
+          ],
+          [
+            "instinct",
+            0.10085982061372355
+          ],
+          [
+            "good",
+            0.09979813829147383
+          ],
+          [
+            "state",
+            0.09767477364697438
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "must",
+          "life",
+          "even",
+          "things",
+          "every",
+          "world",
+          "would",
+          "means",
+          "upon",
+          "great",
+          "christianity",
+          "whole",
+          "first",
+          "people",
+          "also",
+          "christian",
+          "fact",
+          "order",
+          "power",
+          "everything",
+          "morality",
+          "instinct",
+          "state",
+          "good",
+          "instincts",
+          "kind",
+          "truth",
+          "like",
+          "time",
+          "thing",
+          "longer",
+          "certain",
+          "german",
+          "nature",
+          "already",
+          "ever",
+          "form",
+          "much",
+          "something",
+          "nothing",
+          "true",
+          "mankind",
+          "possible",
+          "faith",
+          "concept",
+          "could",
+          "still",
+          "reason",
+          "become",
+          "know",
+          "necessary",
+          "case",
+          "energy",
+          "make",
+          "precisely",
+          "able",
+          "question",
+          "love",
+          "alone",
+          "cause",
+          "moral",
+          "feeling",
+          "reality",
+          "made",
+          "type",
+          "merely",
+          "right",
+          "eternal",
+          "last",
+          "instance",
+          "highest",
+          "nietzsche",
+          "spirit",
+          "word",
+          "death",
+          "well",
+          "history",
+          "thought",
+          "always",
+          "among",
+          "matter",
+          "value",
+          "idea",
+          "church",
+          "priest",
+          "point",
+          "number",
+          "values",
+          "becomes",
+          "virtue",
+          "general",
+          "sense",
+          "book",
+          "doctrine",
+          "evil",
+          "thou",
+          "call",
+          "never",
+          "existence",
+          "almost"
+        ],
+        "frequencies": [
+          248,
+          236,
+          218,
+          166,
+          166,
+          163,
+          157,
+          141,
+          129,
+          122,
+          118,
+          117,
+          116,
+          115,
+          106,
+          106,
+          105,
+          101,
+          101,
+          98,
+          90,
+          90,
+          89,
+          86,
+          84,
+          80,
+          78,
+          78,
+          75,
+          74,
+          73,
+          72,
+          72,
+          71,
+          71,
+          69,
+          67,
+          66,
+          65,
+          65,
+          64,
+          64,
+          64,
+          63,
+          61,
+          59,
+          59,
+          58,
+          58,
+          57,
+          57,
+          56,
+          56,
+          55,
+          55,
+          55,
+          54,
+          54,
+          53,
+          52,
+          52,
+          52,
+          52,
+          51,
+          51,
+          51,
+          51,
+          50,
+          50,
+          49,
+          49,
+          48,
+          48,
+          48,
+          47,
+          47,
+          47,
+          46,
+          46,
+          46,
+          46,
+          45,
+          45,
+          45,
+          45,
+          44,
+          43,
+          43,
+          43,
+          43,
+          42,
+          42,
+          41,
+          41,
+          41,
+          41,
+          41,
+          40,
+          40,
+          40
+        ]
+      }
+    },
+    "Thus Spake Zarathustra": {
+      "basic_info": {
+        "word_count": 110900,
+        "char_count": 637289,
+        "num_chapters": 4
+      },
+      "sentiment": {
+        "full_text": {
+          "compound": 0.07025341718442188,
+          "positive": 0.11468116381269888,
+          "neutral": 0.8004987119260494,
+          "negative": 0.08482315502348842,
+          "sentence_count": 6599,
+          "compound_std": 0.44931031006036437,
+          "sentiment_range": [
+            -0.9735,
+            0.9892
+          ],
+          "classification": "positive"
+        },
+        "chapters": [
+          {
+            "compound": 0.10018787878787878,
+            "positive": 0.08886363636363637,
+            "neutral": 0.8418636363636364,
+            "negative": 0.06925757575757575,
+            "sentence_count": 66,
+            "compound_std": 0.43768546216714826,
+            "sentiment_range": [
+              -0.9118,
+              0.9231
+            ],
+            "chapter": "Chapter I: THE PROLOGUE.",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.1512378640776699,
+            "positive": 0.10186407766990291,
+            "neutral": 0.8576116504854371,
+            "negative": 0.0405242718446602,
+            "sentence_count": 103,
+            "compound_std": 0.40889791403269854,
+            "sentiment_range": [
+              -0.9201,
+              0.9705
+            ],
+            "chapter": "Chapter II: Chapter XXIII. The Child with the Mirror.",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.06822251908396945,
+            "positive": 0.0860496183206107,
+            "neutral": 0.860385496183206,
+            "negative": 0.053561068702290084,
+            "sentence_count": 262,
+            "compound_std": 0.4079690753937407,
+            "sentiment_range": [
+              -0.9274,
+              0.9711
+            ],
+            "chapter": "Chapter III: This is perhaps the most important of all the four parts. If it",
+            "classification": "positive"
+          },
+          {
+            "compound": 0.09330159362549802,
+            "positive": 0.09727091633466135,
+            "neutral": 0.8303266932270915,
+            "negative": 0.072398406374502,
+            "sentence_count": 251,
+            "compound_std": 0.4306499124452411,
+            "sentiment_range": [
+              -0.8221,
+              0.967
+            ],
+            "chapter": "Chapter IV: In my opinion this part is Nietzsche’s open avowal that all his",
+            "classification": "positive"
+          }
+        ],
+        "sentiment_trajectory": [
+          0.10018787878787878,
+          0.1512378640776699,
+          0.06822251908396945,
+          0.09330159362549802
+        ]
+      },
+      "style": {
+        "lexical_diversity": {
+          "type_token_ratio": 0.08118162935610432,
+          "unique_words": 8794,
+          "total_words": 108325,
+          "hapax_legomena": 4074,
+          "avg_word_frequency": 12.318057766659086
+        },
+        "sentence_metrics": {
+          "sentence_count": 6599,
+          "avg_sentence_length": 20.263221700257613,
+          "sentence_length_std": 18.59191516703475,
+          "min_sentence_length": 1,
+          "max_sentence_length": 284
+        },
+        "word_metrics": {
+          "avg_word_length": 4.323766443572582,
+          "word_length_std": 2.308456570069451,
+          "min_word_length": 1,
+          "max_word_length": 19
+        },
+        "readability": {
+          "flesch_reading_ease": 71.62172295517715,
+          "flesch_kincaid_grade": 7.3475699244166535,
+          "gunning_fog": 10.406072533981277,
+          "avg_syllables_per_word": 1.4013201015462728,
+          "complex_word_percentage": 9.59981537041311
+        },
+        "vocabulary_complexity": {
+          "long_words_percentage": 17.249942303254095,
+          "avg_word_length": 4.323766443572582,
+          "words_over_10_chars": 4110,
+          "words_over_15_chars": 27
+        },
+        "distinctive_words": [
+          [
+            "thou",
+            0.40347661719369804
+          ],
+          [
+            "zarathustra",
+            0.3631489412072625
+          ],
+          [
+            "thy",
+            0.24660902156608244
+          ],
+          [
+            "hath",
+            0.23214009252864007
+          ],
+          [
+            "thee",
+            0.2041231848096663
+          ],
+          [
+            "man",
+            0.189172502285607
+          ],
+          [
+            "unto",
+            0.17927605958333212
+          ],
+          [
+            "did",
+            0.17592128835738816
+          ],
+          [
+            "like",
+            0.13845233862932108
+          ],
+          [
+            "love",
+            0.1370815233953674
+          ],
+          [
+            "good",
+            0.13433989292746004
+          ],
+          [
+            "doth",
+            0.13422209767528967
+          ],
+          [
+            "verily",
+            0.11263940450281304
+          ],
+          [
+            "great",
+            0.11057909553892971
+          ],
+          [
+            "men",
+            0.105095834603115
+          ],
+          [
+            "ones",
+            0.10372501936916133
+          ],
+          [
+            "spake",
+            0.10349102647212773
+          ],
+          [
+            "shall",
+            0.09230155908621406
+          ],
+          [
+            "said",
+            0.09093074385226038
+          ],
+          [
+            "life",
+            0.0895599286183067
+          ]
+        ]
+      },
+      "word_frequencies": {
+        "words": [
+          "thou",
+          "zarathustra",
+          "hath",
+          "thus",
+          "however",
+          "unto",
+          "thee",
+          "also",
+          "like",
+          "love",
+          "good",
+          "would",
+          "still",
+          "even",
+          "great",
+          "ones",
+          "doth",
+          "shall",
+          "said",
+          "verily",
+          "must",
+          "spake",
+          "life",
+          "become",
+          "spirit",
+          "well",
+          "heart",
+          "nietzsche",
+          "many",
+          "long",
+          "mine",
+          "last",
+          "things",
+          "time",
+          "soul",
+          "higher",
+          "ever",
+          "upon",
+          "much",
+          "come",
+          "people",
+          "world",
+          "virtue",
+          "know",
+          "evil",
+          "every",
+          "everything",
+          "first",
+          "speak",
+          "could",
+          "earth",
+          "away",
+          "little",
+          "always",
+          "call",
+          "happiness",
+          "best",
+          "thyself",
+          "longer",
+          "thing",
+          "came",
+          "called",
+          "want",
+          "eyes",
+          "therefore",
+          "around",
+          "learn",
+          "brethren",
+          "found",
+          "words",
+          "chapter",
+          "wisdom",
+          "small",
+          "truth",
+          "already",
+          "hast",
+          "another",
+          "enough",
+          "find",
+          "make",
+          "woman",
+          "light",
+          "power",
+          "give",
+          "among",
+          "body",
+          "animals",
+          "take",
+          "perhaps",
+          "something",
+          "without",
+          "death",
+          "nothing",
+          "hand",
+          "never",
+          "alone",
+          "cave",
+          "better",
+          "friend",
+          "hour"
+        ],
+        "frequencies": [
+          862,
+          700,
+          404,
+          377,
+          364,
+          348,
+          345,
+          335,
+          294,
+          288,
+          283,
+          259,
+          259,
+          247,
+          235,
+          219,
+          207,
+          200,
+          191,
+          190,
+          184,
+          181,
+          180,
+          180,
+          173,
+          171,
+          171,
+          167,
+          166,
+          163,
+          162,
+          160,
+          158,
+          157,
+          152,
+          146,
+          144,
+          142,
+          138,
+          138,
+          136,
+          132,
+          129,
+          129,
+          127,
+          125,
+          118,
+          116,
+          116,
+          115,
+          115,
+          115,
+          110,
+          106,
+          99,
+          96,
+          96,
+          95,
+          88,
+          88,
+          87,
+          87,
+          85,
+          85,
+          84,
+          82,
+          81,
+          81,
+          80,
+          78,
+          78,
+          78,
+          77,
+          77,
+          76,
+          76,
+          75,
+          74,
+          74,
+          74,
+          73,
+          72,
+          72,
+          71,
+          69,
+          68,
+          68,
+          67,
+          67,
+          65,
+          65,
+          64,
+          64,
+          64,
+          62,
+          61,
+          61,
+          61,
+          59,
+          59
+        ]
+      }
+    }
+  },
+  "corpus_wide": {
+    "vocabulary_overlap": {
+      "overlap_matrix": {
+        "Beyond Good and Evil": {
+          "Beyond Good and Evil": 100.0,
+          "Ecce Homo": 31.62071017655227,
+          "Human All Too Human": 30.16161832387884,
+          "The Antichrist": 28.804347826086957,
+          "The Birth of Tragedy": 31.671469740634006,
+          "The Genealogy of Morals": 32.06480061349693,
+          "The Twilight of the Idols": 34.54246469336429,
+          "Thus Spake Zarathustra": 30.469008949287375
+        },
+        "Ecce Homo": {
+          "Beyond Good and Evil": 31.62071017655227,
+          "Ecce Homo": 100.0,
+          "Human All Too Human": 27.755721625408686,
+          "The Antichrist": 29.192999513855128,
+          "The Birth of Tragedy": 30.467035837425556,
+          "The Genealogy of Morals": 30.408142070827708,
+          "The Twilight of the Idols": 35.56623931623932,
+          "Thus Spake Zarathustra": 32.11751864653447
+        },
+        "Human All Too Human": {
+          "Beyond Good and Evil": 30.16161832387884,
+          "Ecce Homo": 27.755721625408686,
+          "Human All Too Human": 100.0,
+          "The Antichrist": 28.280786849905688,
+          "The Birth of Tragedy": 29.207358619123326,
+          "The Genealogy of Morals": 29.064261555806088,
+          "The Twilight of the Idols": 30.214775666254358,
+          "Thus Spake Zarathustra": 24.27975914775359
+        },
+        "The Antichrist": {
+          "Beyond Good and Evil": 28.804347826086957,
+          "Ecce Homo": 29.192999513855128,
+          "Human All Too Human": 28.280786849905688,
+          "The Antichrist": 100.0,
+          "The Birth of Tragedy": 26.566788655077765,
+          "The Genealogy of Morals": 28.543397968605728,
+          "The Twilight of the Idols": 38.84918679152292,
+          "Thus Spake Zarathustra": 24.194465504169827
+        },
+        "The Birth of Tragedy": {
+          "Beyond Good and Evil": 31.671469740634006,
+          "Ecce Homo": 30.467035837425556,
+          "Human All Too Human": 29.207358619123326,
+          "The Antichrist": 26.566788655077765,
+          "The Birth of Tragedy": 100.0,
+          "The Genealogy of Morals": 29.64182380524793,
+          "The Twilight of the Idols": 31.866586296966045,
+          "Thus Spake Zarathustra": 28.000684404140646
+        },
+        "The Genealogy of Morals": {
+          "Beyond Good and Evil": 32.06480061349693,
+          "Ecce Homo": 30.408142070827708,
+          "Human All Too Human": 29.064261555806088,
+          "The Antichrist": 28.543397968605728,
+          "The Birth of Tragedy": 29.64182380524793,
+          "The Genealogy of Morals": 100.0,
+          "The Twilight of the Idols": 33.292929292929294,
+          "Thus Spake Zarathustra": 26.863026415731284
+        },
+        "The Twilight of the Idols": {
+          "Beyond Good and Evil": 34.54246469336429,
+          "Ecce Homo": 35.56623931623932,
+          "Human All Too Human": 30.214775666254358,
+          "The Antichrist": 38.84918679152292,
+          "The Birth of Tragedy": 31.866586296966045,
+          "The Genealogy of Morals": 33.292929292929294,
+          "The Twilight of the Idols": 100.0,
+          "Thus Spake Zarathustra": 30.051457975986278
+        },
+        "Thus Spake Zarathustra": {
+          "Beyond Good and Evil": 30.469008949287375,
+          "Ecce Homo": 32.11751864653447,
+          "Human All Too Human": 24.27975914775359,
+          "The Antichrist": 24.194465504169827,
+          "The Birth of Tragedy": 28.000684404140646,
+          "The Genealogy of Morals": 26.863026415731284,
+          "The Twilight of the Idols": 30.051457975986278,
+          "Thus Spake Zarathustra": 100.0
+        }
+      },
+      "unique_words": {
+        "Beyond Good and Evil": {
+          "count": 1497,
+          "percentage": 20.662525879917183,
+          "examples": [
+            "abbe",
+            "abbreviation",
+            "abdicated",
+            "abjure",
+            "abridgement",
+            "absolve",
+            "abstrusest",
+            "absurde",
+            "absurdissimum",
+            "absurdum",
+            "acceptations",
+            "accesses",
+            "accessories",
+            "accoucheur",
+            "actualize",
+            "acuteness",
+            "adaptableness",
+            "adaptations",
+            "adjecto",
+            "admissible"
+          ]
+        },
+        "Ecce Homo": {
+          "count": 891,
+          "percentage": 14.78838174273859,
+          "examples": [
+            "aberration",
+            "abundantly",
+            "acceleration",
+            "accent",
+            "acceptation",
+            "accessibility",
+            "accessory",
+            "acclaim",
+            "accompaniment",
+            "accosted",
+            "acoustic",
+            "adamant",
+            "adrian",
+            "adventurer",
+            "adversaries",
+            "advertise",
+            "africa",
+            "aggressor",
+            "agility",
+            "airy"
+          ]
+        },
+        "Human All Too Human": {
+          "count": 784,
+          "percentage": 15.947925142392188,
+          "examples": [
+            "abject",
+            "abnegations",
+            "accountable",
+            "achievements",
+            "addled",
+            "adequacy",
+            "adhere",
+            "adherence",
+            "administered",
+            "administering",
+            "admissibility",
+            "adorns",
+            "advancements",
+            "advancing",
+            "advantageous",
+            "adytum",
+            "aeons",
+            "aesthetical",
+            "aeterna",
+            "aeternae"
+          ]
+        },
+        "The Antichrist": {
+          "count": 551,
+          "percentage": 11.965255157437568,
+          "examples": [
+            "abased",
+            "absolutism",
+            "acids",
+            "adeptly",
+            "adroit",
+            "advisable",
+            "affrighted",
+            "affront",
+            "agamemnon",
+            "alack",
+            "alcaeus",
+            "alcmene",
+            "alfred",
+            "aliveness",
+            "allotropic",
+            "amalgamated",
+            "amateur",
+            "amounting",
+            "amused",
+            "anaemic"
+          ]
+        },
+        "The Birth of Tragedy": {
+          "count": 1335,
+          "percentage": 20.659238625812442,
+          "examples": [
+            "abbreviature",
+            "abjured",
+            "abstractly",
+            "accommodation",
+            "accredits",
+            "achten",
+            "actively",
+            "actualise",
+            "adalbert",
+            "adjacent",
+            "admetes",
+            "admonitions",
+            "adorer",
+            "adulation",
+            "adulterating",
+            "affectionate",
+            "affections",
+            "afflicting",
+            "agathon",
+            "aggregate"
+          ]
+        },
+        "The Genealogy of Morals": {
+          "count": 1394,
+          "percentage": 21.341090018371094,
+          "examples": [
+            "abjectness",
+            "aboriginals",
+            "abounded",
+            "abridging",
+            "abstains",
+            "accelerating",
+            "accommodated",
+            "accomplishes",
+            "accumulates",
+            "acete",
+            "achieves",
+            "acolytes",
+            "adaptability",
+            "adjustments",
+            "administrative",
+            "affiliate",
+            "affiliated",
+            "affirmabant",
+            "aftermath",
+            "aggressively"
+          ]
+        },
+        "The Twilight of the Idols": {
+          "count": 891,
+          "percentage": 13.370348139255702,
+          "examples": [
+            "abolishing",
+            "absotutum",
+            "accentuated",
+            "accentuating",
+            "accentuation",
+            "accomplishment",
+            "accomplishments",
+            "accounting",
+            "acquiesce",
+            "acrobatic",
+            "actiones",
+            "actuates",
+            "adduces",
+            "adjunct",
+            "adjusts",
+            "admitting",
+            "adoption",
+            "adores",
+            "affixes",
+            "aghast"
+          ]
+        },
+        "Thus Spake Zarathustra": {
+          "count": 2520,
+          "percentage": 29.64705882352941,
+          "examples": [
+            "abash",
+            "abashed",
+            "abet",
+            "abjures",
+            "absolved",
+            "abstruse",
+            "abusive",
+            "abut",
+            "accomplisheth",
+            "accredit",
+            "accuse",
+            "accuses",
+            "accusing",
+            "acorns",
+            "acquitteth",
+            "addedst",
+            "adder",
+            "adjoineth",
+            "admonished",
+            "admonishing"
+          ]
+        }
+      },
+      "total_unique_words": 20183
+    }
+  }
+}
