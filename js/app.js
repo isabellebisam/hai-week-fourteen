@@ -1,14 +1,18 @@
 // Main application script for Nietzsche Corpus Analysis
 let analysisData = null;
+console.log('app.js carregado');
 
 // Load data on page load
 document.addEventListener('DOMContentLoaded', async function() {
+    console.log('DOMContentLoaded disparado');
     try {
         const response = await fetch('analysis/output/analysis_results.json');
+        console.log('Fetch iniciado para analysis_results.json');
         if (!response.ok) {
             throw new Error('Analysis data not found. Please run the analysis script first.');
         }
         analysisData = await response.json();
+        console.log('JSON carregado, inicializando app...');
 
         document.getElementById('loading').style.display = 'none';
         document.getElementById('content').style.display = 'block';
@@ -607,3 +611,4 @@ function setupEventListeners() {
         updateFrequencyComparison(text1, e.target.value);
     });
 }
+
