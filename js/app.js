@@ -6,7 +6,7 @@ console.log('app.js carregado');
 document.addEventListener('DOMContentLoaded', async function() {
     console.log('DOMContentLoaded disparado');
     try {
-        const response = await fetch('analysis/output/analysis_results.json');
+        const response = await fetch('data/analysis_results.json');
         console.log('Fetch iniciado para analysis_results.json');
         if (!response.ok) {
             throw new Error('Analysis data not found. Please run the analysis script first.');
@@ -611,4 +611,5 @@ function setupEventListeners() {
         updateFrequencyComparison(text1, e.target.value);
     });
 }
+
 
